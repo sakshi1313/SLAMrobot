@@ -1,0 +1,74 @@
+[0.270s] Invoking command in '/home/sakshi/ClutterBot/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/utils/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver
+[4.023s] -- The C compiler identification is GNU 9.4.0
+[5.390s] -- The CXX compiler identification is GNU 9.4.0
+[5.430s] -- Check for working C compiler: /usr/lib/ccache/cc
+[6.788s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[6.789s] -- Detecting C compiler ABI info
+[7.279s] -- Detecting C compiler ABI info - done
+[7.306s] -- Detecting C compile features
+[7.306s] -- Detecting C compile features - done
+[7.310s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[7.511s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[7.513s] -- Detecting CXX compiler ABI info
+[7.756s] -- Detecting CXX compiler ABI info - done
+[7.782s] -- Detecting CXX compile features
+[7.784s] -- Detecting CXX compile features - done
+[7.787s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.872s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.873s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.509s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[10.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.660s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[13.362s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[13.471s] -- Found FastRTPS: /opt/ros/foxy/include  
+[14.020s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.552s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[14.579s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.678s] -- Looking for pthread.h
+[14.810s] -- Looking for pthread.h - found
+[14.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.993s] -- Looking for pthread_create in pthreads
+[15.206s] -- Looking for pthread_create in pthreads - not found
+[15.206s] -- Looking for pthread_create in pthread
+[15.370s] -- Looking for pthread_create in pthread - found
+[15.371s] -- Found Threads: TRUE  
+[16.057s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[16.352s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[16.496s] -- Configuring done
+[16.516s] -- Generating done
+[16.519s] -- Build files have been written to: /home/sakshi/ClutterBot/build/hls_lfcd_lds_driver
+[16.531s] Invoked command in '/home/sakshi/ClutterBot/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/utils/hls_lfcd_lds_driver -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver
+[16.532s] Invoking command in '/home/sakshi/ClutterBot/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/hls_lfcd_lds_driver -- -j8 -l8
+[16.673s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[18.579s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[19.885s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[22.143s] [100%] Built target hlds_laser_publisher
+[22.190s] Invoked command in '/home/sakshi/ClutterBot/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/hls_lfcd_lds_driver -- -j8 -l8
+[22.340s] Invoking command in '/home/sakshi/ClutterBot/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/hls_lfcd_lds_driver
+[22.366s] -- Install configuration: ""
+[22.367s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch
+[22.367s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[22.417s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[22.462s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz
+[22.463s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[22.501s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[22.504s] -- Set runtime path of "/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher" to ""
+[22.508s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[22.508s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[22.509s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[22.510s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.dsv
+[22.510s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[22.511s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.dsv
+[22.511s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[22.512s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[22.512s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[22.513s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.dsv
+[22.513s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.dsv
+[22.514s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[22.515s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.515s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.515s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[22.515s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[22.515s] -- Installing: /home/sakshi/ClutterBot/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml
+[22.532s] Invoked command in '/home/sakshi/ClutterBot/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/hls_lfcd_lds_driver

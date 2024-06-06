@@ -1,0 +1,21 @@
+[28.949s] Invoking command in '/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/sakshi/ClutterBot/build/turtlebot3_teleop/prefix_override:/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/sakshi/ClutterBot/build/turtlebot3_teleop/build install --record /home/sakshi/ClutterBot/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[29.263s] running egg_info
+[29.263s] writing ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[29.263s] writing dependency_links to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[29.264s] writing entry points to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[29.264s] writing requirements to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[29.264s] writing top-level names to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[29.372s] reading manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[29.401s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[29.401s] running build
+[29.401s] running build_py
+[29.402s] running install
+[29.402s] running install_lib
+[29.404s] running install_data
+[29.404s] running install_egg_info
+[29.406s] removing '/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.4-py3.8.egg-info' (and everything under it)
+[29.430s] Copying ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.4-py3.8.egg-info
+[29.440s] running install_scripts
+[29.457s] Installing teleop_keyboard script to /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[29.457s] writing list of installed files to '/home/sakshi/ClutterBot/build/turtlebot3_teleop/install.log'
+[29.479s] Invoked command in '/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/sakshi/ClutterBot/build/turtlebot3_teleop/prefix_override:/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/sakshi/ClutterBot/build/turtlebot3_teleop/build install --record /home/sakshi/ClutterBot/build/turtlebot3_teleop/install.log --single-version-externally-managed

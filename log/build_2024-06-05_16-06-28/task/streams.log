@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[0.054s] [35m[1mScanning dependencies of target noisyodom[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+[2.785s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘double NoiseNode::getNoise()’:
+[2.785s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:53:17: error: ‘random_device’ in namespace ‘std’ does not name a type
+[2.785s]    53 |     static std::random_device rd;
+[2.785s]       |                 ^~~~~~~~~~~~~
+[2.785s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:54:17: error: ‘mt19937’ in namespace ‘std’ does not name a type
+[2.785s]    54 |     static std::mt19937 gen(rd());
+[2.785s]       |                 ^~~~~~~
+[2.785s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:55:17: error: ‘normal_distribution’ in namespace ‘std’ does not name a template type; did you mean ‘uniform_int_distribution’?
+[2.786s]    55 |     static std::normal_distribution<> d(0.0, 0.1); // Mean 0, standard deviation 0.1
+[2.786s]       |                 ^~~~~~~~~~~~~~~~~~~
+[2.786s]       |                 uniform_int_distribution
+[2.786s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:56:14: error: ‘gen’ was not declared in this scope
+[2.786s]    56 |     return d(gen);
+[2.786s]       |              ^~~
+[2.786s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:56:12: error: ‘d’ was not declared in this scope
+[2.786s]    56 |     return d(gen);
+[2.786s]       |            ^
+[2.810s] make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+[2.810s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+[2.811s] make: *** [Makefile:141: all] Error 2
+[2.817s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8

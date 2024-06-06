@@ -1,0 +1,234 @@
+[0.040s] Invoking command in '/home/sakshi/ClutterBot/src/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/src/install/slam_gmapping
+[0.241s] -- The C compiler identification is GNU 9.4.0
+[0.404s] -- The CXX compiler identification is GNU 9.4.0
+[0.413s] -- Check for working C compiler: /usr/lib/ccache/cc
+[0.724s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[0.726s] -- Detecting C compiler ABI info
+[1.157s] -- Detecting C compiler ABI info - done
+[1.214s] -- Detecting C compile features
+[1.214s] -- Detecting C compile features - done
+[1.256s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[2.026s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[2.028s] -- Detecting CXX compiler ABI info
+[2.334s] -- Detecting CXX compiler ABI info - done
+[2.352s] -- Detecting CXX compile features
+[2.352s] -- Detecting CXX compile features - done
+[2.352s]  -fuse-ld=lld -Wl,--disable-new-dtags
+[2.364s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.408s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.408s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.826s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.877s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.995s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.041s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.361s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.973s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[4.101s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.439s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.459s] -- Looking for pthread.h
+[4.925s] -- Looking for pthread.h - found
+[4.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.384s] -- Looking for pthread_create in pthreads
+[5.634s] -- Looking for pthread_create in pthreads - not found
+[5.634s] -- Looking for pthread_create in pthread
+[5.947s] -- Looking for pthread_create in pthread - found
+[5.951s] -- Found Threads: TRUE  
+[7.459s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[7.685s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.694s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.744s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.931s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.135s] -- Found openslam_gmapping: 0.1.2 (/home/sakshi/ClutterBot/src/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[8.188s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.553s] -- Configured cppcheck include dirs: /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include
+[8.553s] -- Configured cppcheck exclude dirs and/or files: 
+[8.560s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.571s] -- Added test 'lint_cmake' to check CMake code style
+[8.606s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.631s] -- Added test 'uncrustify' to check C / C++ code style
+[8.631s] -- Configured uncrustify additional arguments: 
+[8.632s] -- Added test 'xmllint' to check XML markup files
+[8.641s] -- Configuring done
+[8.689s] -- Generating done
+[8.698s] -- Build files have been written to: /home/sakshi/ClutterBot/src/build/slam_gmapping
+[8.746s] Invoked command in '/home/sakshi/ClutterBot/src/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/src/install/slam_gmapping
+[8.757s] Invoking command in '/home/sakshi/ClutterBot/src/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sakshi/ClutterBot/src/build/slam_gmapping -- -j8 -l8
+[8.882s] [35m[1mScanning dependencies of target slam_gmapping[0m
+[10.525s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[60.438s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9,
+[60.583s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.584s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.584s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h: In function ‘void rle(OutputIterator&, const Iterator&, const Iterator&)’:
+[60.584s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+[60.585s]   140 |  if (count>0)
+[60.585s]       |  ^~
+[60.585s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+[60.586s]   142 |   out++;
+[60.586s]       |   ^~~
+[60.586s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10,
+[60.586s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.587s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.587s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/utils/point.h: At global scope:
+[60.587s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/utils/point.h:205:2: warning: extra ‘;’ [-Wpedantic]
+[60.588s]   205 | }; //end namespace
+[60.588s]       |  ^
+[60.588s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4,
+[60.589s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6,
+[60.589s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+[60.590s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.590s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.590s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2: warning: extra ‘;’ [-Wpedantic]
+[60.591s]    21 | }; //end namespace
+[60.591s]       |  ^
+[60.591s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6,
+[60.591s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+[60.592s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.592s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.592s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2: warning: extra ‘;’ [-Wpedantic]
+[60.592s]    23 | }; //end namespace
+[60.593s]       |  ^
+[60.593s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7,
+[60.593s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+[60.593s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.594s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.594s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2: warning: extra ‘;’ [-Wpedantic]
+[60.594s]    17 | };
+[60.595s]       |  ^
+[60.595s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8,
+[60.595s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+[60.595s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.596s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.596s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2: warning: extra ‘;’ [-Wpedantic]
+[60.596s]    33 | };
+[60.596s]       |  ^
+[60.597s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9,
+[60.597s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+[60.597s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.597s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.598s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2: warning: extra ‘;’ [-Wpedantic]
+[60.598s]    27 | };
+[60.598s]       |  ^
+[60.598s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10,
+[60.599s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+[60.599s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.599s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.600s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2: warning: extra ‘;’ [-Wpedantic]
+[60.600s]    24 | };
+[60.600s]       |  ^
+[60.601s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11,
+[60.601s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+[60.601s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.601s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.602s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2: warning: extra ‘;’ [-Wpedantic]
+[60.602s]    15 | };
+[60.602s]       |  ^
+[60.602s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+[60.602s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.603s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.603s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2: warning: extra ‘;’ [-Wpedantic]
+[60.603s]    27 | };
+[60.603s]       |  ^
+[60.604s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/map.h:5,
+[60.604s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3,
+[60.604s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+[60.604s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+[60.604s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.605s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.605s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2: warning: extra ‘;’ [-Wpedantic]
+[60.605s]     6 | };
+[60.605s]       |  ^
+[60.606s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/map.h:6,
+[60.606s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3,
+[60.606s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+[60.607s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+[60.607s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.607s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.607s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2: warning: extra ‘;’ [-Wpedantic]
+[60.608s]   185 | };
+[60.608s]       |  ^
+[60.608s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3,
+[60.608s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+[60.609s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+[60.609s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.609s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.609s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/map.h:262:2: warning: extra ‘;’ [-Wpedantic]
+[60.609s]   262 | };
+[60.610s]       |  ^
+[60.610s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5,
+[60.610s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4,
+[60.610s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+[60.611s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+[60.611s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.611s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.611s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2: warning: extra ‘;’ [-Wpedantic]
+[60.611s]    96 | };
+[60.611s]       |  ^
+[60.612s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4,
+[60.612s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+[60.612s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+[60.612s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.612s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.612s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2: warning: extra ‘;’ [-Wpedantic]
+[60.613s]   197 | };
+[60.613s]       |  ^
+[60.613s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+[60.613s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+[60.613s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.613s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.614s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2: warning: extra ‘;’ [-Wpedantic]
+[60.614s]    52 | };
+[60.614s]       |  ^
+[60.614s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7,
+[60.614s]                  from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+[60.614s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.614s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.615s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2: warning: extra ‘;’ [-Wpedantic]
+[60.615s]   145 | }; //end namespace
+[60.615s]       |  ^
+[60.615s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+[60.616s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.616s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.616s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2: warning: extra ‘;’ [-Wpedantic]
+[60.616s]   250 | };
+[60.616s]       |  ^
+[60.616s] In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16,
+[60.616s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.617s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.617s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2: warning: extra ‘;’ [-Wpedantic]
+[60.617s]    17 | };
+[60.617s]       |  ^
+[60.617s] In file included from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+[60.617s]                  from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+[60.617s] /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2: warning: extra ‘;’ [-Wpedantic]
+[60.618s]   335 | };
+[60.618s]       |  ^
+[67.072s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[80.266s] [100%] Built target slam_gmapping
+[81.210s] Invoked command in '/home/sakshi/ClutterBot/src/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sakshi/ClutterBot/src/build/slam_gmapping -- -j8 -l8
+[83.256s] Invoking command in '/home/sakshi/ClutterBot/src/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sakshi/ClutterBot/src/build/slam_gmapping
+[83.641s] -- Install configuration: ""
+[83.641s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[83.646s] -- Set runtime path of "/home/sakshi/ClutterBot/src/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""
+[83.654s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/launch
+[83.832s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[85.991s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[86.016s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[86.016s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[86.747s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[86.770s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[86.771s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[86.783s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[87.338s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[87.360s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[87.361s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[87.361s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/package.dsv
+[87.372s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[87.385s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[87.405s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[87.501s] -- Installing: /home/sakshi/ClutterBot/src/install/slam_gmapping/share/slam_gmapping/package.xml
+[87.592s] Invoked command in '/home/sakshi/ClutterBot/src/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sakshi/ClutterBot/src/build/slam_gmapping

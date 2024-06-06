@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.001535] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001597] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001649] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001672] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.001703] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002322] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002813] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002866] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002910] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002957] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002997] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003035] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.003075] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.003112] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003166] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003213] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003258] (task) JobQueued: {'identifier': 'task', 'dependencies': OrderedDict()}
+[0.003305] (task) JobStarted: {'identifier': 'task'}
+[0.016797] (task) JobProgress: {'identifier': 'task', 'progress': 'cmake'}
+[0.018168] (task) JobProgress: {'identifier': 'task', 'progress': 'build'}
+[0.019277] (task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sakshi/ClutterBot/build/task', '--', '-j8', '-l8'], 'cwd': '/home/sakshi/ClutterBot/build/task', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sakshi'), ('GIT_EDITOR', 'vim'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk/lib:/usr/local/cuda-11.0/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sakshi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '47280'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sakshi/ClutterBot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '9:66804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.0/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/home/sakshi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/sakshi/.local/bin:/home/sakshi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sakshi/.fzf/bin'), ('SESSION_MANAGER', 'local/sakshi-G3-3500:@/tmp/.ICE-unix/2614,unix/sakshi-G3-3500:/tmp/.ICE-unix/2614'), ('INVOCATION_ID', '19b32bbd162e478cafb893c39b5f0eb6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_example:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:909bbc20-0124-4d21-9a15-1533075a5816'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ClutterBot/build/task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.060639] (task) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target noisyodom\x1b[0m\n'}
+[0.086572] (task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o\x1b[0m\n'}
+[0.100026] (-) TimerEvent: {}
+[0.200307] (-) TimerEvent: {}
+[0.300676] (-) TimerEvent: {}
+[0.401018] (-) TimerEvent: {}
+[0.501304] (-) TimerEvent: {}
+[0.601671] (-) TimerEvent: {}
+[0.702157] (-) TimerEvent: {}
+[0.802843] (-) TimerEvent: {}
+[0.903634] (-) TimerEvent: {}
+[1.004442] (-) TimerEvent: {}
+[1.105880] (-) TimerEvent: {}
+[1.206244] (-) TimerEvent: {}
+[1.306531] (-) TimerEvent: {}
+[1.406818] (-) TimerEvent: {}
+[1.507105] (-) TimerEvent: {}
+[1.607387] (-) TimerEvent: {}
+[1.707673] (-) TimerEvent: {}
+[1.807981] (-) TimerEvent: {}
+[1.908262] (-) TimerEvent: {}
+[2.008517] (-) TimerEvent: {}
+[2.108767] (-) TimerEvent: {}
+[2.209043] (-) TimerEvent: {}
+[2.309331] (-) TimerEvent: {}
+[2.409624] (-) TimerEvent: {}
+[2.509926] (-) TimerEvent: {}
+[2.610206] (-) TimerEvent: {}
+[2.710461] (-) TimerEvent: {}
+[2.810739] (-) TimerEvent: {}
+[2.911019] (-) TimerEvent: {}
+[3.011298] (-) TimerEvent: {}
+[3.111581] (-) TimerEvent: {}
+[3.211842] (-) TimerEvent: {}
+[3.312138] (-) TimerEvent: {}
+[3.412436] (-) TimerEvent: {}
+[3.512813] (-) TimerEvent: {}
+[3.613468] (-) TimerEvent: {}
+[3.714089] (-) TimerEvent: {}
+[3.814610] (-) TimerEvent: {}
+[3.914923] (-) TimerEvent: {}
+[4.015240] (-) TimerEvent: {}
+[4.115583] (-) TimerEvent: {}
+[4.215903] (-) TimerEvent: {}
+[4.316220] (-) TimerEvent: {}
+[4.416538] (-) TimerEvent: {}
+[4.516849] (-) TimerEvent: {}
+[4.617154] (-) TimerEvent: {}
+[4.717462] (-) TimerEvent: {}
+[4.817765] (-) TimerEvent: {}
+[4.918071] (-) TimerEvent: {}
+[5.018382] (-) TimerEvent: {}
+[5.118691] (-) TimerEvent: {}
+[5.219024] (-) TimerEvent: {}
+[5.319338] (-) TimerEvent: {}
+[5.419652] (-) TimerEvent: {}
+[5.520075] (-) TimerEvent: {}
+[5.620798] (-) TimerEvent: {}
+[5.721158] (-) TimerEvent: {}
+[5.821875] (-) TimerEvent: {}
+[5.922508] (-) TimerEvent: {}
+[6.022842] (-) TimerEvent: {}
+[6.123180] (-) TimerEvent: {}
+[6.217592] (task) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable noisyodom\x1b[0m\n'}
+[6.223355] (-) TimerEvent: {}
+[6.323950] (-) TimerEvent: {}
+[6.424682] (-) TimerEvent: {}
+[6.525321] (-) TimerEvent: {}
+[6.625934] (-) TimerEvent: {}
+[6.726494] (-) TimerEvent: {}
+[6.827071] (-) TimerEvent: {}
+[6.927566] (-) TimerEvent: {}
+[7.027986] (-) TimerEvent: {}
+[7.128682] (-) TimerEvent: {}
+[7.170858] (task) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o: in function `rclcpp::create_subscription_factory<nav_msgs::msg::Odometry_<std::allocator<void> >, std::_Bind<void (NoiseNode::*(NoiseNode*, std::_Placeholder<1>))(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)>, std::allocator<void>, nav_msgs::msg::Odometry_<std::allocator<void> >, rclcpp::Subscription<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> > >(std::_Bind<void (NoiseNode::*(NoiseNode*, std::_Placeholder<1>))(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >)>&&, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> > const&, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<nav_msgs::msg::Odometry_<std::allocator<void> > > >)::{lambda(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&)#1}::operator()(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&) const':\n"}
+[7.171292] (task) StderrLine: {'line': b"noisyodom.cpp:(.text._ZZN6rclcpp27create_subscription_factoryIN8nav_msgs3msg9Odometry_ISaIvEEESt5_BindIFM9NoiseNodeFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_[_ZZN6rclcpp27create_subscription_factoryIN8nav_msgs3msg9Odometry_ISaIvEEESt5_BindIFM9NoiseNodeFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_]+0x5c): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<nav_msgs::msg::Odometry_<std::allocator<void> > >()'\n"}
+[7.171418] (task) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o: in function `rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':\n"}
+[7.171508] (task) StderrLine: {'line': b"noisyodom.cpp:(.text._ZN6rclcpp9PublisherIN8nav_msgs3msg9Odometry_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN8nav_msgs3msg9Odometry_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<nav_msgs::msg::Odometry_<std::allocator<void> > >()'\n"}
+[7.171605] (task) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o: in function `rclcpp::Publisher<tf2_msgs::msg::TFMessage_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':\n"}
+[7.171694] (task) StderrLine: {'line': b"noisyodom.cpp:(.text._ZN6rclcpp9PublisherIN8tf2_msgs3msg10TFMessage_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN8tf2_msgs3msg10TFMessage_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<tf2_msgs::msg::TFMessage_<std::allocator<void> > >()'\n"}
+[7.178055] (task) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.179078] (task) StderrLine: {'line': b'make[2]: *** [CMakeFiles/noisyodom.dir/build.make:131: noisyodom] Error 1\n'}
+[7.179312] (task) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2\n'}
+[7.179496] (task) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.180991] (task) CommandEnded: {'returncode': 2}
+[7.218578] (task) JobEnded: {'identifier': 'task', 'rc': 2}
+[7.228762] (-) TimerEvent: {}
+[7.229276] (-) EventReactorShutdown: {}

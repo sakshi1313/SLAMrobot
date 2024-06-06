@@ -1,0 +1,24 @@
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘void NoiseNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)’:
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:46:34: error: ‘toMsg’ is not a member of ‘tf2’
+   46 |     tf.transform.rotation = tf2::toMsg(q.normalize());
+      |                                  ^~~~~
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘double NoiseNode::getNoise()’:
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:53:17: error: ‘random_device’ in namespace ‘std’ does not name a type
+   53 |     static std::random_device rd;
+      |                 ^~~~~~~~~~~~~
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:54:17: error: ‘mt19937’ in namespace ‘std’ does not name a type
+   54 |     static std::mt19937 gen(rd());
+      |                 ^~~~~~~
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:55:17: error: ‘normal_distribution’ in namespace ‘std’ does not name a template type; did you mean ‘uniform_int_distribution’?
+   55 |     static std::normal_distribution<> d(0.0, 0.1); // Mean 0, standard deviation 0.1
+      |                 ^~~~~~~~~~~~~~~~~~~
+      |                 uniform_int_distribution
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:56:14: error: ‘gen’ was not declared in this scope
+   56 |     return d(gen);
+      |              ^~~
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:56:12: error: ‘d’ was not declared in this scope
+   56 |     return d(gen);
+      |            ^
+make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

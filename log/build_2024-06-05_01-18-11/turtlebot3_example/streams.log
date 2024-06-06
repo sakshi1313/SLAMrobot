@@ -1,0 +1,87 @@
+[2.085s] Invoking command in '/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_example': CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk PYTHONPATH=/home/sakshi/ClutterBot/build/turtlebot3_example/prefix_override:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_example build --build-base /home/sakshi/ClutterBot/build/turtlebot3_example/build install --record /home/sakshi/ClutterBot/build/turtlebot3_example/install.log --single-version-externally-managed
+[2.771s] running egg_info
+[2.772s] creating ../../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[2.772s] writing ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[2.773s] writing dependency_links to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[2.773s] writing entry points to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[2.773s] writing requirements to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[2.773s] writing top-level names to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[2.776s] writing manifest file '../../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[2.784s] reading manifest file '../../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[2.784s] writing manifest file '../../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[2.784s] running build
+[2.784s] running build_py
+[2.785s] creating /home/sakshi/ClutterBot/build/turtlebot3_example/build
+[2.785s] creating /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib
+[2.786s] creating /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example
+[2.786s] copying turtlebot3_example/__init__.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example
+[2.786s] creating /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[2.786s] copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[2.806s] copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[2.818s] copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[2.818s] creating /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[2.818s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[2.827s] copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[2.864s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[2.872s] copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[2.872s] creating /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[2.873s] copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[2.883s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[2.895s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[2.896s] creating /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[2.896s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[2.897s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[2.898s] copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[2.898s] copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[2.899s] running install
+[2.900s] running install_lib
+[2.902s] creating /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example
+[2.902s] creating /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[2.902s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[2.902s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[2.902s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[2.903s] creating /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[2.903s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[2.903s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/main.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[2.903s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[2.903s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[2.904s] creating /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[2.904s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[2.904s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[2.904s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[2.904s] creating /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[2.904s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[2.904s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[2.904s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[2.905s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[2.905s] copying /home/sakshi/ClutterBot/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example
+[2.905s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-38.pyc
+[2.905s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/main.py to main.cpython-38.pyc
+[2.905s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/__init__.py to __init__.cpython-38.pyc
+[2.905s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[2.906s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/main.py to main.cpython-38.pyc
+[2.906s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py to turtlebot3_position_control.cpython-38.pyc
+[2.907s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-38.pyc
+[2.907s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/main.py to main.cpython-38.pyc
+[2.907s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-38.pyc
+[2.909s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-38.pyc
+[2.910s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-38.pyc
+[2.911s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[2.912s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/main.py to main.cpython-38.pyc
+[2.913s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/__init__.py to __init__.cpython-38.pyc
+[2.913s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/__init__.py to __init__.cpython-38.pyc
+[2.913s] running install_data
+[2.914s] creating /home/sakshi/ClutterBot/install/turtlebot3_example/share/ament_index
+[2.914s] creating /home/sakshi/ClutterBot/install/turtlebot3_example/share/ament_index/resource_index
+[2.915s] creating /home/sakshi/ClutterBot/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2.915s] copying resource/turtlebot3_example -> /home/sakshi/ClutterBot/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2.915s] copying package.xml -> /home/sakshi/ClutterBot/install/turtlebot3_example/share/turtlebot3_example
+[2.915s] running install_egg_info
+[2.917s] Copying ../../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info
+[2.918s] running install_scripts
+[2.967s] Installing turtlebot3_obstacle_detection script to /home/sakshi/ClutterBot/install/turtlebot3_example/lib/turtlebot3_example
+[2.967s] Installing turtlebot3_patrol_client script to /home/sakshi/ClutterBot/install/turtlebot3_example/lib/turtlebot3_example
+[2.967s] Installing turtlebot3_patrol_server script to /home/sakshi/ClutterBot/install/turtlebot3_example/lib/turtlebot3_example
+[2.967s] Installing turtlebot3_position_control script to /home/sakshi/ClutterBot/install/turtlebot3_example/lib/turtlebot3_example
+[2.968s] writing list of installed files to '/home/sakshi/ClutterBot/build/turtlebot3_example/install.log'
+[3.025s] Invoked command in '/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk PYTHONPATH=/home/sakshi/ClutterBot/build/turtlebot3_example/prefix_override:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_example build --build-base /home/sakshi/ClutterBot/build/turtlebot3_example/build install --record /home/sakshi/ClutterBot/build/turtlebot3_example/install.log --single-version-externally-managed

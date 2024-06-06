@@ -1,0 +1,34 @@
+[0.290s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[4.438s] [35m[1mScanning dependencies of target noisyodom[0m
+[4.686s] [ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+[11.940s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In constructor ‘NoisyOdometryNode::NoisyOdometryNode()’:
+[11.941s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:10:51: error: no matching function for call to ‘tf2_ros::TransformBroadcaster::TransformBroadcaster()’
+[11.941s]    10 |   NoisyOdometryNode() : Node("noisy_odometry_node")
+[11.941s]       |                                                   ^
+[11.941s] In file included from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:3:
+[11.941s] /opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3: note: candidate: ‘template<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)’
+[11.941s]    53 |   TransformBroadcaster(
+[11.941s]       |   ^~~~~~~~~~~~~~~~~~~~
+[11.941s] /opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3: note:   template argument deduction/substitution failed:
+[11.941s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:10:51: note:   candidate expects 3 arguments, 0 provided
+[11.941s]    10 |   NoisyOdometryNode() : Node("noisy_odometry_node")
+[11.941s]       |                                                   ^
+[11.941s] In file included from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:3:
+[11.941s] /opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note: candidate: ‘tf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)’
+[11.941s]    49 | class TransformBroadcaster{
+[11.941s]       |       ^~~~~~~~~~~~~~~~~~~~
+[11.942s] /opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note:   candidate expects 1 argument, 0 provided
+[11.942s] /opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note: candidate: ‘tf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)’
+[11.942s] /opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note:   candidate expects 1 argument, 0 provided
+[11.942s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘void NoisyOdometryNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)’:
+[11.942s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:26: error: ‘class tf2_ros::TransformBroadcaster’ has no member named ‘canTransform’; did you mean ‘sendTransform’?
+[11.942s]    48 |     if (!tf_broadcaster_.canTransform("map", "odom", tf2::TimePointZero))
+[11.942s]       |                          ^~~~~~~~~~~~
+[11.942s]       |                          sendTransform
+[11.942s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:54: error: ‘tf2’ has not been declared
+[11.942s]    48 |     if (!tf_broadcaster_.canTransform("map", "odom", tf2::TimePointZero))
+[11.942s]       |                                                      ^~~
+[12.021s] make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+[12.021s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+[12.022s] make: *** [Makefile:141: all] Error 2
+[12.027s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8

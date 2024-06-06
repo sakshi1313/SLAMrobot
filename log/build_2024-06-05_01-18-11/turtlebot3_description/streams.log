@@ -1,0 +1,64 @@
+[0.286s] Invoking command in '/home/sakshi/ClutterBot/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/turtlebot3_description
+[4.041s] -- The C compiler identification is GNU 9.4.0
+[5.410s] -- The CXX compiler identification is GNU 9.4.0
+[5.449s] -- Check for working C compiler: /usr/lib/ccache/cc
+[6.843s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[6.844s] -- Detecting C compiler ABI info
+[7.275s] -- Detecting C compiler ABI info - done
+[7.295s] -- Detecting C compile features
+[7.296s] -- Detecting C compile features - done
+[7.304s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[7.763s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[7.763s] -- Detecting CXX compiler ABI info
+[7.946s] -- Detecting CXX compiler ABI info - done
+[7.991s] -- Detecting CXX compile features
+[7.992s] -- Detecting CXX compile features - done
+[7.996s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.079s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.515s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[10.044s] -- Configuring done
+[10.048s] -- Generating done
+[10.071s] -- Build files have been written to: /home/sakshi/ClutterBot/build/turtlebot3_description
+[10.109s] Invoked command in '/home/sakshi/ClutterBot/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/turtlebot3_description
+[10.113s] Invoking command in '/home/sakshi/ClutterBot/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/turtlebot3_description -- -j8 -l8
+[10.185s] Invoked command in '/home/sakshi/ClutterBot/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/turtlebot3_description -- -j8 -l8
+[10.231s] Invoking command in '/home/sakshi/ClutterBot/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/turtlebot3_description
+[10.245s] -- Install configuration: ""
+[10.246s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes
+[10.246s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[10.246s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[10.272s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[10.690s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[10.690s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[10.848s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[10.920s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[11.387s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[11.387s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[11.471s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[12.190s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[12.251s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[12.299s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[12.301s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/rviz
+[12.301s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[12.314s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/urdf
+[12.314s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[12.314s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[12.314s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[12.315s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[12.317s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[12.318s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[12.318s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[12.318s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[12.318s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[12.318s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[12.319s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[12.319s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[12.319s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[12.319s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[12.319s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[12.319s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[12.319s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[12.320s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[12.320s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[12.326s] Invoked command in '/home/sakshi/ClutterBot/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/turtlebot3_description

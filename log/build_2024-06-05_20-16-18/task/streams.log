@@ -1,0 +1,26 @@
+[0.222s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[0.454s] [35m[1mScanning dependencies of target noisyodom[0m
+[0.569s] [ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+[31.358s] [100%] [32m[1mLinking CXX executable noisyodom[0m
+[33.181s] [100%] Built target noisyodom
+[33.235s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[33.372s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/sakshi/ClutterBot/build/task
+[33.416s] -- Install configuration: ""
+[33.418s] -- Installing: /home/sakshi/ClutterBot/install/task/lib/task/noisyodom
+[33.430s] -- Set runtime path of "/home/sakshi/ClutterBot/install/task/lib/task/noisyodom" to ""
+[33.435s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/package_run_dependencies/task
+[33.435s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/parent_prefix_path/task
+[33.435s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/environment/ament_prefix_path.sh
+[33.435s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/environment/ament_prefix_path.dsv
+[33.436s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/environment/path.sh
+[33.438s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/environment/path.dsv
+[33.439s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/local_setup.bash
+[33.451s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/local_setup.sh
+[33.452s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/local_setup.zsh
+[33.452s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/local_setup.dsv
+[33.452s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/package.dsv
+[33.452s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/packages/task
+[33.453s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/cmake/taskConfig.cmake
+[33.453s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/cmake/taskConfig-version.cmake
+[33.453s] -- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/package.xml
+[33.455s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/sakshi/ClutterBot/build/task

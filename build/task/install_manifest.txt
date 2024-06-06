@@ -1,0 +1,16 @@
+/home/sakshi/ClutterBot/install/task/lib/task/noisyodom
+/home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/package_run_dependencies/task
+/home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/parent_prefix_path/task
+/home/sakshi/ClutterBot/install/task/share/task/environment/ament_prefix_path.sh
+/home/sakshi/ClutterBot/install/task/share/task/environment/ament_prefix_path.dsv
+/home/sakshi/ClutterBot/install/task/share/task/environment/path.sh
+/home/sakshi/ClutterBot/install/task/share/task/environment/path.dsv
+/home/sakshi/ClutterBot/install/task/share/task/local_setup.bash
+/home/sakshi/ClutterBot/install/task/share/task/local_setup.sh
+/home/sakshi/ClutterBot/install/task/share/task/local_setup.zsh
+/home/sakshi/ClutterBot/install/task/share/task/local_setup.dsv
+/home/sakshi/ClutterBot/install/task/share/task/package.dsv
+/home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/packages/task
+/home/sakshi/ClutterBot/install/task/share/task/cmake/taskConfig.cmake
+/home/sakshi/ClutterBot/install/task/share/task/cmake/taskConfig-version.cmake
+/home/sakshi/ClutterBot/install/task/share/task/package.xml

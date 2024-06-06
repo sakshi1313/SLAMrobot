@@ -1,0 +1,24 @@
+[1.585s] Invoking command in '/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_example': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sakshi/ClutterBot/src/build/turtlebot3_example/prefix_override:/home/sakshi/ClutterBot/src/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/sakshi/ClutterBot/src/build/turtlebot3_example/build install --record /home/sakshi/ClutterBot/src/build/turtlebot3_example/install.log --single-version-externally-managed
+[1.946s] running egg_info
+[1.947s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[1.948s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[1.948s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[1.948s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[1.948s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[1.955s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[1.956s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[1.957s] running build
+[1.957s] running build_py
+[1.958s] running install
+[1.959s] running install_lib
+[1.963s] running install_data
+[1.963s] running install_egg_info
+[1.965s] removing '/home/sakshi/ClutterBot/src/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info' (and everything under it)
+[1.966s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/sakshi/ClutterBot/src/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info
+[1.966s] running install_scripts
+[1.989s] Installing turtlebot3_obstacle_detection script to /home/sakshi/ClutterBot/src/install/turtlebot3_example/lib/turtlebot3_example
+[1.989s] Installing turtlebot3_patrol_client script to /home/sakshi/ClutterBot/src/install/turtlebot3_example/lib/turtlebot3_example
+[1.990s] Installing turtlebot3_patrol_server script to /home/sakshi/ClutterBot/src/install/turtlebot3_example/lib/turtlebot3_example
+[1.990s] Installing turtlebot3_position_control script to /home/sakshi/ClutterBot/src/install/turtlebot3_example/lib/turtlebot3_example
+[1.991s] writing list of installed files to '/home/sakshi/ClutterBot/src/build/turtlebot3_example/install.log'
+[2.030s] Invoked command in '/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sakshi/ClutterBot/src/build/turtlebot3_example/prefix_override:/home/sakshi/ClutterBot/src/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/sakshi/ClutterBot/src/build/turtlebot3_example/build install --record /home/sakshi/ClutterBot/src/build/turtlebot3_example/install.log --single-version-externally-managed

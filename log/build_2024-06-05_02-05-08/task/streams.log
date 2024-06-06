@@ -1,0 +1,11 @@
+[0.016s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[0.505s] [35m[1mScanning dependencies of target noisyodom[0m
+[0.514s] [ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+[0.584s] [01m[K/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.584s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.584s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.584s] compilation terminated.
+[0.585s] make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+[0.585s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+[0.585s] make: *** [Makefile:141: all] Error 2
+[0.587s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8

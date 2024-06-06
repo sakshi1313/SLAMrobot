@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target noisyodom[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘void NoisyOdometryNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)’:
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:62:21: error: ‘class std::shared_ptr<tf2_ros::TransformBroadcaster>’ has no member named ‘sendTransform’
+   62 |     tf_broadcaster_.sendTransform(transform_stamped);
+      |                     ^~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target noisyodom[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In constructor ‘NoisyOdometryNode::NoisyOdometryNode()’:
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:10:51: error: no matching function for call to ‘tf2_ros::TransformBroadcaster::TransformBroadcaster()’
+   10 |   NoisyOdometryNode() : Node("noisy_odometry_node")
+      |                                                   ^
+In file included from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:3:
+/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3: note: candidate: ‘template<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)’
+   53 |   TransformBroadcaster(
+      |   ^~~~~~~~~~~~~~~~~~~~
+/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3: note:   template argument deduction/substitution failed:
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:10:51: note:   candidate expects 3 arguments, 0 provided
+   10 |   NoisyOdometryNode() : Node("noisy_odometry_node")
+      |                                                   ^
+In file included from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:3:
+/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note: candidate: ‘tf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)’
+   49 | class TransformBroadcaster{
+      |       ^~~~~~~~~~~~~~~~~~~~
+/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note:   candidate expects 1 argument, 0 provided
+/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note: candidate: ‘tf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)’
+/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note:   candidate expects 1 argument, 0 provided
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘void NoisyOdometryNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)’:
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:26: error: ‘class tf2_ros::TransformBroadcaster’ has no member named ‘canTransform’; did you mean ‘sendTransform’?
+   48 |     if (!tf_broadcaster_.canTransform("map", "odom", tf2::TimePointZero))
+      |                          ^~~~~~~~~~~~
+      |                          sendTransform
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:54: error: ‘tf2’ has not been declared
+   48 |     if (!tf_broadcaster_.canTransform("map", "odom", tf2::TimePointZero))
+      |                                                      ^~~
+make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

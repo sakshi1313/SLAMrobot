@@ -1,0 +1,2 @@
+Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy: /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+Invoked command in '/home/sakshi/ClutterBot/build/task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy: /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8

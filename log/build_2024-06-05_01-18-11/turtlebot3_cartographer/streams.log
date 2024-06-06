@@ -1,0 +1,49 @@
+[0.241s] Invoking command in '/home/sakshi/ClutterBot/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/turtlebot3_cartographer
+[3.995s] -- The C compiler identification is GNU 9.4.0
+[5.354s] -- The CXX compiler identification is GNU 9.4.0
+[5.401s] -- Check for working C compiler: /usr/lib/ccache/cc
+[7.262s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[7.263s] -- Detecting C compiler ABI info
+[7.369s] -- Detecting C compiler ABI info - done
+[7.397s] -- Detecting C compile features
+[7.397s] -- Detecting C compile features - done
+[7.403s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[7.547s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[7.549s] -- Detecting CXX compiler ABI info
+[7.782s] -- Detecting CXX compiler ABI info - done
+[7.815s] -- Detecting CXX compile features
+[7.816s] -- Detecting CXX compile features - done
+[7.826s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.910s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.910s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.674s] -- Configuring done
+[9.676s] -- Generating done
+[9.678s] -- Build files have been written to: /home/sakshi/ClutterBot/build/turtlebot3_cartographer
+[9.698s] Invoked command in '/home/sakshi/ClutterBot/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/turtlebot3_cartographer
+[9.698s] Invoking command in '/home/sakshi/ClutterBot/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/turtlebot3_cartographer -- -j8 -l8
+[9.794s] Invoked command in '/home/sakshi/ClutterBot/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/turtlebot3_cartographer -- -j8 -l8
+[9.865s] Invoking command in '/home/sakshi/ClutterBot/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/turtlebot3_cartographer
+[9.882s] -- Install configuration: ""
+[9.883s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[9.883s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[9.948s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[9.949s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[10.009s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[10.009s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[10.010s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[10.010s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[10.011s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[10.011s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[10.011s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[10.011s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[10.011s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[10.011s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[10.012s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[10.012s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[10.012s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[10.012s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[10.012s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[10.012s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[10.012s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[10.012s] -- Installing: /home/sakshi/ClutterBot/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[10.038s] Invoked command in '/home/sakshi/ClutterBot/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/turtlebot3_cartographer

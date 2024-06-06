@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000168] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000207] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000329] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000396] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.000620] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000755] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001137] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001179] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001212] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001658] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002070] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002111] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002142] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002172] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002201] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.002233] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.002272] (task) JobQueued: {'identifier': 'task', 'dependencies': OrderedDict()}
+[0.002306] (task) JobStarted: {'identifier': 'task'}
+[0.017763] (task) JobProgress: {'identifier': 'task', 'progress': 'cmake'}
+[0.018600] (task) JobProgress: {'identifier': 'task', 'progress': 'build'}
+[0.019426] (task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sakshi/ClutterBot/build/task', '--', '-j8', '-l8'], 'cwd': '/home/sakshi/ClutterBot/build/task', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sakshi'), ('GIT_EDITOR', 'vim'), ('SSH_AGENT_PID', '3449'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sakshi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '3241'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '122407'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sakshi/ClutterBot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '9:104252'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/home/sakshi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/sakshi/.local/bin:/home/sakshi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sakshi/.fzf/bin'), ('SESSION_MANAGER', 'local/sakshi-G3-3500:@/tmp/.ICE-unix/3487,unix/sakshi-G3-3500:/tmp/.ICE-unix/3487'), ('INVOCATION_ID', 'a776007c35f748ecb4be601b5d95c9f4'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_example:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f211aca7-e283-497a-84e0-9c2abfd32fa0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ClutterBot/build/task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.053279] (task) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.078225] (task) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099787] (-) TimerEvent: {}
+[0.200044] (-) TimerEvent: {}
+[0.300304] (-) TimerEvent: {}
+[0.400539] (-) TimerEvent: {}
+[0.423172] (task) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.500636] (-) TimerEvent: {}
+[0.600994] (-) TimerEvent: {}
+[0.701319] (-) TimerEvent: {}
+[0.784531] (task) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.801415] (-) TimerEvent: {}
+[0.839897] (task) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.901502] (-) TimerEvent: {}
+[1.001813] (-) TimerEvent: {}
+[1.102073] (-) TimerEvent: {}
+[1.202450] (-) TimerEvent: {}
+[1.303215] (-) TimerEvent: {}
+[1.403543] (-) TimerEvent: {}
+[1.503793] (-) TimerEvent: {}
+[1.604033] (-) TimerEvent: {}
+[1.642388] (task) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.691217] (task) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.704152] (-) TimerEvent: {}
+[1.804391] (-) TimerEvent: {}
+[1.861940] (task) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.904539] (-) TimerEvent: {}
+[2.005047] (-) TimerEvent: {}
+[2.077452] (task) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.097299] (task) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.105116] (-) TimerEvent: {}
+[2.137930] (task) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.205209] (-) TimerEvent: {}
+[2.305501] (-) TimerEvent: {}
+[2.405805] (-) TimerEvent: {}
+[2.426414] (task) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.426627] (task) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.505888] (-) TimerEvent: {}
+[2.606137] (-) TimerEvent: {}
+[2.607745] (task) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.607932] (task) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.705223] (task) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.705508] (task) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.706208] (-) TimerEvent: {}
+[2.800528] (task) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.802021] (task) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.806306] (-) TimerEvent: {}
+[2.906644] (-) TimerEvent: {}
+[3.006933] (-) TimerEvent: {}
+[3.085082] (task) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[3.107024] (-) TimerEvent: {}
+[3.186636] (task) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.207139] (-) TimerEvent: {}
+[3.254535] (task) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.255366] (task) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.255536] (task) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sakshi/ClutterBot/src/task/include>\n'}
+[3.255615] (task) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.256193] (task) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.256267] (task) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.256678] (task) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.257353] (task) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.257436] (task) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.257705] (task) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.259834] (task) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.263085] (task) StdoutLine: {'line': b'-- Generating done\n'}
+[3.265032] (task) StdoutLine: {'line': b'-- Build files have been written to: /home/sakshi/ClutterBot/build/task\n'}
+[3.300310] (task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o\x1b[0m\n'}
+[3.307236] (-) TimerEvent: {}
+[3.311997] (task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[3.312211] (task) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<rclcpp/rclcpp.hpp>\x1b[m\x1b[K\n'}
+[3.312291] (task) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.312377] (task) StderrLine: {'line': b'compilation terminated.\n'}
+[3.313226] (task) StderrLine: {'line': b'make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1\n'}
+[3.313391] (task) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2\n'}
+[3.313632] (task) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.315622] (task) CommandEnded: {'returncode': 2}
+[3.358906] (task) JobEnded: {'identifier': 'task', 'rc': 2}
+[3.359685] (-) EventReactorShutdown: {}

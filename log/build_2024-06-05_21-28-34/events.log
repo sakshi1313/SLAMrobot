@@ -1,0 +1,426 @@
+[0.000000] (-) TimerEvent: {}
+[0.000862] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001050] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001786] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.002266] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.002459] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002525] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002573] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002620] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002667] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002715] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002763] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002818] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002866] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002925] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002975] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003022] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003078] (task) JobQueued: {'identifier': 'task', 'dependencies': OrderedDict()}
+[0.005946] (task) JobStarted: {'identifier': 'task'}
+[0.091854] (task) JobProgress: {'identifier': 'task', 'progress': 'cmake'}
+[0.099626] (task) JobProgress: {'identifier': 'task', 'progress': 'build'}
+[0.099799] (-) TimerEvent: {}
+[0.104958] (task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sakshi/ClutterBot/build/task', '--', '-j8', '-l8'], 'cwd': '/home/sakshi/ClutterBot/build/task', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sakshi'), ('GIT_EDITOR', 'vim'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:'), ('HOME', '/home/sakshi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '47280'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sakshi/ClutterBot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '9:66804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/home/sakshi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/sakshi/.local/bin:/home/sakshi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sakshi/.fzf/bin'), ('SESSION_MANAGER', 'local/sakshi-G3-3500:@/tmp/.ICE-unix/2614,unix/sakshi-G3-3500:/tmp/.ICE-unix/2614'), ('INVOCATION_ID', '19b32bbd162e478cafb893c39b5f0eb6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_example:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/opt/ros/foxy:'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ccce91b3-9b7e-41a5-b411-2f7707f4195b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ClutterBot/build/task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy:')]), 'shell': False}
+[0.200031] (-) TimerEvent: {}
+[0.300805] (-) TimerEvent: {}
+[0.376648] (task) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target noisyodom\x1b[0m\n'}
+[0.400972] (-) TimerEvent: {}
+[0.487888] (task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o\x1b[0m\n'}
+[0.503492] (-) TimerEvent: {}
+[0.603832] (-) TimerEvent: {}
+[0.704379] (-) TimerEvent: {}
+[0.806459] (-) TimerEvent: {}
+[0.907767] (-) TimerEvent: {}
+[1.010338] (-) TimerEvent: {}
+[1.112150] (-) TimerEvent: {}
+[1.212758] (-) TimerEvent: {}
+[1.314057] (-) TimerEvent: {}
+[1.415168] (-) TimerEvent: {}
+[1.516796] (-) TimerEvent: {}
+[1.617326] (-) TimerEvent: {}
+[1.718128] (-) TimerEvent: {}
+[1.820289] (-) TimerEvent: {}
+[1.921708] (-) TimerEvent: {}
+[2.023757] (-) TimerEvent: {}
+[2.126006] (-) TimerEvent: {}
+[2.228169] (-) TimerEvent: {}
+[2.330481] (-) TimerEvent: {}
+[2.432959] (-) TimerEvent: {}
+[2.535260] (-) TimerEvent: {}
+[2.636080] (-) TimerEvent: {}
+[2.737186] (-) TimerEvent: {}
+[2.839287] (-) TimerEvent: {}
+[2.940279] (-) TimerEvent: {}
+[3.042571] (-) TimerEvent: {}
+[3.143850] (-) TimerEvent: {}
+[3.244673] (-) TimerEvent: {}
+[3.346108] (-) TimerEvent: {}
+[3.446675] (-) TimerEvent: {}
+[3.548159] (-) TimerEvent: {}
+[3.650640] (-) TimerEvent: {}
+[3.752769] (-) TimerEvent: {}
+[3.854051] (-) TimerEvent: {}
+[3.955156] (-) TimerEvent: {}
+[4.056329] (-) TimerEvent: {}
+[4.157240] (-) TimerEvent: {}
+[4.258445] (-) TimerEvent: {}
+[4.359658] (-) TimerEvent: {}
+[4.460721] (-) TimerEvent: {}
+[4.561814] (-) TimerEvent: {}
+[4.663728] (-) TimerEvent: {}
+[4.764955] (-) TimerEvent: {}
+[4.866873] (-) TimerEvent: {}
+[4.967828] (-) TimerEvent: {}
+[5.069385] (-) TimerEvent: {}
+[5.171366] (-) TimerEvent: {}
+[5.272488] (-) TimerEvent: {}
+[5.373062] (-) TimerEvent: {}
+[5.473704] (-) TimerEvent: {}
+[5.574297] (-) TimerEvent: {}
+[5.675319] (-) TimerEvent: {}
+[5.776266] (-) TimerEvent: {}
+[5.877003] (-) TimerEvent: {}
+[5.978195] (-) TimerEvent: {}
+[6.078909] (-) TimerEvent: {}
+[6.180166] (-) TimerEvent: {}
+[6.281631] (-) TimerEvent: {}
+[6.382369] (-) TimerEvent: {}
+[6.485648] (-) TimerEvent: {}
+[6.587442] (-) TimerEvent: {}
+[6.688342] (-) TimerEvent: {}
+[6.790124] (-) TimerEvent: {}
+[6.891331] (-) TimerEvent: {}
+[6.993102] (-) TimerEvent: {}
+[7.094279] (-) TimerEvent: {}
+[7.195396] (-) TimerEvent: {}
+[7.296348] (-) TimerEvent: {}
+[7.397676] (-) TimerEvent: {}
+[7.500745] (-) TimerEvent: {}
+[7.605420] (-) TimerEvent: {}
+[7.707065] (-) TimerEvent: {}
+[7.809534] (-) TimerEvent: {}
+[7.911105] (-) TimerEvent: {}
+[8.011798] (-) TimerEvent: {}
+[8.112324] (-) TimerEvent: {}
+[8.213152] (-) TimerEvent: {}
+[8.315323] (-) TimerEvent: {}
+[8.416138] (-) TimerEvent: {}
+[8.516725] (-) TimerEvent: {}
+[8.617999] (-) TimerEvent: {}
+[8.720049] (-) TimerEvent: {}
+[8.821898] (-) TimerEvent: {}
+[8.924036] (-) TimerEvent: {}
+[9.024894] (-) TimerEvent: {}
+[9.126013] (-) TimerEvent: {}
+[9.227959] (-) TimerEvent: {}
+[9.328967] (-) TimerEvent: {}
+[9.429726] (-) TimerEvent: {}
+[9.531294] (-) TimerEvent: {}
+[9.633574] (-) TimerEvent: {}
+[9.735063] (-) TimerEvent: {}
+[9.836644] (-) TimerEvent: {}
+[9.938285] (-) TimerEvent: {}
+[10.040173] (-) TimerEvent: {}
+[10.142154] (-) TimerEvent: {}
+[10.243525] (-) TimerEvent: {}
+[10.345018] (-) TimerEvent: {}
+[10.447053] (-) TimerEvent: {}
+[10.548917] (-) TimerEvent: {}
+[10.649786] (-) TimerEvent: {}
+[10.751150] (-) TimerEvent: {}
+[10.852453] (-) TimerEvent: {}
+[10.953080] (-) TimerEvent: {}
+[11.054106] (-) TimerEvent: {}
+[11.155626] (-) TimerEvent: {}
+[11.257904] (-) TimerEvent: {}
+[11.359716] (-) TimerEvent: {}
+[11.461181] (-) TimerEvent: {}
+[11.563390] (-) TimerEvent: {}
+[11.664429] (-) TimerEvent: {}
+[11.767325] (-) TimerEvent: {}
+[11.868103] (-) TimerEvent: {}
+[11.968959] (-) TimerEvent: {}
+[12.069798] (-) TimerEvent: {}
+[12.172116] (-) TimerEvent: {}
+[12.273382] (-) TimerEvent: {}
+[12.374254] (-) TimerEvent: {}
+[12.475825] (-) TimerEvent: {}
+[12.577100] (-) TimerEvent: {}
+[12.678009] (-) TimerEvent: {}
+[12.779217] (-) TimerEvent: {}
+[12.880048] (-) TimerEvent: {}
+[12.980914] (-) TimerEvent: {}
+[13.082030] (-) TimerEvent: {}
+[13.182840] (-) TimerEvent: {}
+[13.284171] (-) TimerEvent: {}
+[13.385922] (-) TimerEvent: {}
+[13.486900] (-) TimerEvent: {}
+[13.587834] (-) TimerEvent: {}
+[13.689499] (-) TimerEvent: {}
+[13.791369] (-) TimerEvent: {}
+[13.892371] (-) TimerEvent: {}
+[13.993251] (-) TimerEvent: {}
+[14.094660] (-) TimerEvent: {}
+[14.195803] (-) TimerEvent: {}
+[14.296496] (-) TimerEvent: {}
+[14.397886] (-) TimerEvent: {}
+[14.498901] (-) TimerEvent: {}
+[14.600784] (-) TimerEvent: {}
+[14.701895] (-) TimerEvent: {}
+[14.803918] (-) TimerEvent: {}
+[14.904648] (-) TimerEvent: {}
+[15.007082] (-) TimerEvent: {}
+[15.109080] (-) TimerEvent: {}
+[15.211625] (-) TimerEvent: {}
+[15.313083] (-) TimerEvent: {}
+[15.414287] (-) TimerEvent: {}
+[15.515627] (-) TimerEvent: {}
+[15.616931] (-) TimerEvent: {}
+[15.719105] (-) TimerEvent: {}
+[15.820355] (-) TimerEvent: {}
+[15.922490] (-) TimerEvent: {}
+[16.024108] (-) TimerEvent: {}
+[16.125719] (-) TimerEvent: {}
+[16.226966] (-) TimerEvent: {}
+[16.328333] (-) TimerEvent: {}
+[16.429498] (-) TimerEvent: {}
+[16.530247] (-) TimerEvent: {}
+[16.631109] (-) TimerEvent: {}
+[16.732838] (-) TimerEvent: {}
+[16.834316] (-) TimerEvent: {}
+[16.935689] (-) TimerEvent: {}
+[17.036565] (-) TimerEvent: {}
+[17.137864] (-) TimerEvent: {}
+[17.239605] (-) TimerEvent: {}
+[17.341385] (-) TimerEvent: {}
+[17.442368] (-) TimerEvent: {}
+[17.544444] (-) TimerEvent: {}
+[17.645831] (-) TimerEvent: {}
+[17.747968] (-) TimerEvent: {}
+[17.849422] (-) TimerEvent: {}
+[17.951230] (-) TimerEvent: {}
+[18.052617] (-) TimerEvent: {}
+[18.154113] (-) TimerEvent: {}
+[18.255551] (-) TimerEvent: {}
+[18.356204] (-) TimerEvent: {}
+[18.457000] (-) TimerEvent: {}
+[18.557751] (-) TimerEvent: {}
+[18.658993] (-) TimerEvent: {}
+[18.760809] (-) TimerEvent: {}
+[18.862414] (-) TimerEvent: {}
+[18.963202] (-) TimerEvent: {}
+[19.064098] (-) TimerEvent: {}
+[19.164961] (-) TimerEvent: {}
+[19.265927] (-) TimerEvent: {}
+[19.367181] (-) TimerEvent: {}
+[19.469240] (-) TimerEvent: {}
+[19.570340] (-) TimerEvent: {}
+[19.670896] (-) TimerEvent: {}
+[19.771487] (-) TimerEvent: {}
+[19.872931] (-) TimerEvent: {}
+[19.974299] (-) TimerEvent: {}
+[20.075155] (-) TimerEvent: {}
+[20.176614] (-) TimerEvent: {}
+[20.279170] (-) TimerEvent: {}
+[20.381209] (-) TimerEvent: {}
+[20.481960] (-) TimerEvent: {}
+[20.583297] (-) TimerEvent: {}
+[20.683942] (-) TimerEvent: {}
+[20.785047] (-) TimerEvent: {}
+[20.887473] (-) TimerEvent: {}
+[20.991605] (-) TimerEvent: {}
+[21.093299] (-) TimerEvent: {}
+[21.194254] (-) TimerEvent: {}
+[21.296213] (-) TimerEvent: {}
+[21.396915] (-) TimerEvent: {}
+[21.499648] (-) TimerEvent: {}
+[21.601588] (-) TimerEvent: {}
+[21.703142] (-) TimerEvent: {}
+[21.803926] (-) TimerEvent: {}
+[21.905875] (-) TimerEvent: {}
+[22.006739] (-) TimerEvent: {}
+[22.107771] (-) TimerEvent: {}
+[22.208379] (-) TimerEvent: {}
+[22.309084] (-) TimerEvent: {}
+[22.409951] (-) TimerEvent: {}
+[22.510967] (-) TimerEvent: {}
+[22.613570] (-) TimerEvent: {}
+[22.714773] (-) TimerEvent: {}
+[22.815547] (-) TimerEvent: {}
+[22.916566] (-) TimerEvent: {}
+[23.018586] (-) TimerEvent: {}
+[23.119547] (-) TimerEvent: {}
+[23.220886] (-) TimerEvent: {}
+[23.322955] (-) TimerEvent: {}
+[23.423818] (-) TimerEvent: {}
+[23.524686] (-) TimerEvent: {}
+[23.625333] (-) TimerEvent: {}
+[23.726668] (-) TimerEvent: {}
+[23.828726] (-) TimerEvent: {}
+[23.929313] (-) TimerEvent: {}
+[24.030848] (-) TimerEvent: {}
+[24.131612] (-) TimerEvent: {}
+[24.232424] (-) TimerEvent: {}
+[24.333612] (-) TimerEvent: {}
+[24.438057] (-) TimerEvent: {}
+[24.539309] (-) TimerEvent: {}
+[24.640670] (-) TimerEvent: {}
+[24.742775] (-) TimerEvent: {}
+[24.844097] (-) TimerEvent: {}
+[24.946419] (-) TimerEvent: {}
+[25.048325] (-) TimerEvent: {}
+[25.148918] (-) TimerEvent: {}
+[25.250727] (-) TimerEvent: {}
+[25.352223] (-) TimerEvent: {}
+[25.454367] (-) TimerEvent: {}
+[25.555958] (-) TimerEvent: {}
+[25.658401] (-) TimerEvent: {}
+[25.760267] (-) TimerEvent: {}
+[25.861376] (-) TimerEvent: {}
+[25.962830] (-) TimerEvent: {}
+[26.064206] (-) TimerEvent: {}
+[26.165669] (-) TimerEvent: {}
+[26.267021] (-) TimerEvent: {}
+[26.368916] (-) TimerEvent: {}
+[26.470188] (-) TimerEvent: {}
+[26.572476] (-) TimerEvent: {}
+[26.673513] (-) TimerEvent: {}
+[26.775309] (-) TimerEvent: {}
+[26.876500] (-) TimerEvent: {}
+[26.977840] (-) TimerEvent: {}
+[27.080262] (-) TimerEvent: {}
+[27.181891] (-) TimerEvent: {}
+[27.282651] (-) TimerEvent: {}
+[27.384282] (-) TimerEvent: {}
+[27.486476] (-) TimerEvent: {}
+[27.587093] (-) TimerEvent: {}
+[27.688534] (-) TimerEvent: {}
+[27.790678] (-) TimerEvent: {}
+[27.891364] (-) TimerEvent: {}
+[27.991813] (-) TimerEvent: {}
+[28.092532] (-) TimerEvent: {}
+[28.194253] (-) TimerEvent: {}
+[28.295267] (-) TimerEvent: {}
+[28.396331] (-) TimerEvent: {}
+[28.497857] (-) TimerEvent: {}
+[28.600018] (-) TimerEvent: {}
+[28.701452] (-) TimerEvent: {}
+[28.802565] (-) TimerEvent: {}
+[28.904901] (-) TimerEvent: {}
+[29.005869] (-) TimerEvent: {}
+[29.106534] (-) TimerEvent: {}
+[29.207370] (-) TimerEvent: {}
+[29.308441] (-) TimerEvent: {}
+[29.409230] (-) TimerEvent: {}
+[29.510478] (-) TimerEvent: {}
+[29.612607] (-) TimerEvent: {}
+[29.713205] (-) TimerEvent: {}
+[29.814847] (-) TimerEvent: {}
+[29.917398] (-) TimerEvent: {}
+[30.018668] (-) TimerEvent: {}
+[30.121097] (-) TimerEvent: {}
+[30.222157] (-) TimerEvent: {}
+[30.324211] (-) TimerEvent: {}
+[30.426673] (-) TimerEvent: {}
+[30.528617] (-) TimerEvent: {}
+[30.630000] (-) TimerEvent: {}
+[30.732150] (-) TimerEvent: {}
+[30.834052] (-) TimerEvent: {}
+[30.935384] (-) TimerEvent: {}
+[31.037243] (-) TimerEvent: {}
+[31.137946] (-) TimerEvent: {}
+[31.239042] (-) TimerEvent: {}
+[31.340275] (-) TimerEvent: {}
+[31.441512] (-) TimerEvent: {}
+[31.542264] (-) TimerEvent: {}
+[31.643500] (-) TimerEvent: {}
+[31.745457] (-) TimerEvent: {}
+[31.846519] (-) TimerEvent: {}
+[31.947837] (-) TimerEvent: {}
+[32.048945] (-) TimerEvent: {}
+[32.150318] (-) TimerEvent: {}
+[32.251221] (-) TimerEvent: {}
+[32.351899] (-) TimerEvent: {}
+[32.452821] (-) TimerEvent: {}
+[32.555322] (-) TimerEvent: {}
+[32.656834] (-) TimerEvent: {}
+[32.757990] (-) TimerEvent: {}
+[32.858855] (-) TimerEvent: {}
+[32.960356] (-) TimerEvent: {}
+[33.062396] (-) TimerEvent: {}
+[33.163891] (-) TimerEvent: {}
+[33.265036] (-) TimerEvent: {}
+[33.368107] (-) TimerEvent: {}
+[33.468806] (-) TimerEvent: {}
+[33.570330] (-) TimerEvent: {}
+[33.672375] (-) TimerEvent: {}
+[33.774439] (-) TimerEvent: {}
+[33.876230] (-) TimerEvent: {}
+[33.978340] (-) TimerEvent: {}
+[34.079092] (-) TimerEvent: {}
+[34.180153] (-) TimerEvent: {}
+[34.281214] (-) TimerEvent: {}
+[34.382536] (-) TimerEvent: {}
+[34.483942] (-) TimerEvent: {}
+[34.596417] (-) TimerEvent: {}
+[34.698493] (-) TimerEvent: {}
+[34.799384] (-) TimerEvent: {}
+[34.900823] (-) TimerEvent: {}
+[34.975156] (task) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable noisyodom\x1b[0m\n'}
+[35.005712] (-) TimerEvent: {}
+[35.106786] (-) TimerEvent: {}
+[35.207897] (-) TimerEvent: {}
+[35.310276] (-) TimerEvent: {}
+[35.412782] (-) TimerEvent: {}
+[35.515282] (-) TimerEvent: {}
+[35.616121] (-) TimerEvent: {}
+[35.716858] (-) TimerEvent: {}
+[35.817721] (-) TimerEvent: {}
+[35.918699] (-) TimerEvent: {}
+[36.021011] (-) TimerEvent: {}
+[36.123479] (-) TimerEvent: {}
+[36.226255] (-) TimerEvent: {}
+[36.327204] (-) TimerEvent: {}
+[36.428152] (-) TimerEvent: {}
+[36.529281] (-) TimerEvent: {}
+[36.630108] (-) TimerEvent: {}
+[36.730734] (-) TimerEvent: {}
+[36.831606] (-) TimerEvent: {}
+[36.932635] (-) TimerEvent: {}
+[37.033937] (-) TimerEvent: {}
+[37.135761] (-) TimerEvent: {}
+[37.236806] (-) TimerEvent: {}
+[37.294147] (task) StdoutLine: {'line': b'[100%] Built target noisyodom\n'}
+[37.337252] (-) TimerEvent: {}
+[37.361621] (task) CommandEnded: {'returncode': 0}
+[37.437983] (-) TimerEvent: {}
+[37.504617] (task) JobProgress: {'identifier': 'task', 'progress': 'install'}
+[37.538323] (-) TimerEvent: {}
+[37.571896] (task) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sakshi/ClutterBot/build/task'], 'cwd': '/home/sakshi/ClutterBot/build/task', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sakshi'), ('GIT_EDITOR', 'vim'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:'), ('HOME', '/home/sakshi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '47280'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sakshi/ClutterBot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '9:66804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/lib/ccache:/home/sakshi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/sakshi/.local/bin:/home/sakshi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sakshi/.fzf/bin'), ('SESSION_MANAGER', 'local/sakshi-G3-3500:@/tmp/.ICE-unix/2614,unix/sakshi-G3-3500:/tmp/.ICE-unix/2614'), ('INVOCATION_ID', '19b32bbd162e478cafb893c39b5f0eb6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_example:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/opt/ros/foxy:'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ccce91b3-9b7e-41a5-b411-2f7707f4195b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ClutterBot/build/task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy:')]), 'shell': False}
+[37.638019] (task) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.638768] (-) TimerEvent: {}
+[37.639578] (task) StdoutLine: {'line': b'-- Installing: /home/sakshi/ClutterBot/install/task/lib/task/noisyodom\n'}
+[37.646897] (task) StdoutLine: {'line': b'-- Set runtime path of "/home/sakshi/ClutterBot/install/task/lib/task/noisyodom" to ""\n'}
+[37.647367] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/package_run_dependencies/task\n'}
+[37.650889] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/parent_prefix_path/task\n'}
+[37.654014] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/environment/ament_prefix_path.sh\n'}
+[37.655028] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/environment/ament_prefix_path.dsv\n'}
+[37.655601] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/environment/path.sh\n'}
+[37.656643] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/environment/path.dsv\n'}
+[37.657223] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/local_setup.bash\n'}
+[37.657575] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/local_setup.sh\n'}
+[37.657802] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/local_setup.zsh\n'}
+[37.658049] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/local_setup.dsv\n'}
+[37.658550] (task) StdoutLine: {'line': b'-- Installing: /home/sakshi/ClutterBot/install/task/share/task/package.dsv\n'}
+[37.659533] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/packages/task\n'}
+[37.660460] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/cmake/taskConfig.cmake\n'}
+[37.661302] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/cmake/taskConfig-version.cmake\n'}
+[37.661564] (task) StdoutLine: {'line': b'-- Up-to-date: /home/sakshi/ClutterBot/install/task/share/task/package.xml\n'}
+[37.667416] (task) CommandEnded: {'returncode': 0}
+[37.740333] (-) TimerEvent: {}
+[37.842215] (-) TimerEvent: {}
+[37.949138] (-) TimerEvent: {}
+[38.050448] (-) TimerEvent: {}
+[38.150123] (task) JobEnded: {'identifier': 'task', 'rc': 0}
+[38.151816] (-) TimerEvent: {}
+[38.161734] (-) EventReactorShutdown: {}

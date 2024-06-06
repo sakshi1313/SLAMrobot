@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000465] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000826] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001296] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.001776] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001876] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001959] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002037] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002113] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002911] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.003051] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003168] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.003244] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.003314] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003384] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003453] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003527] (task) JobQueued: {'identifier': 'task', 'dependencies': OrderedDict()}
+[0.003601] (task) JobStarted: {'identifier': 'task'}
+[0.099451] (-) TimerEvent: {}
+[0.200601] (-) TimerEvent: {}
+[0.248716] (task) JobProgress: {'identifier': 'task', 'progress': 'cmake'}
+[0.287471] (task) JobProgress: {'identifier': 'task', 'progress': 'build'}
+[0.290522] (task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sakshi/ClutterBot/build/task', '--', '-j8', '-l8'], 'cwd': '/home/sakshi/ClutterBot/build/task', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'sakshi'), ('GIT_EDITOR', 'vim'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk/lib:/usr/local/cuda-11.0/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sakshi'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '47280'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sakshi/ClutterBot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '9:66804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sakshi/anaconda3/bin:/home/sakshi/anaconda3/condabin:/usr/local/cuda-11.0/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/home/sakshi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/sakshi/.local/bin:/home/sakshi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sakshi/.fzf/bin'), ('SESSION_MANAGER', 'local/sakshi-G3-3500:@/tmp/.ICE-unix/2614,unix/sakshi-G3-3500:/tmp/.ICE-unix/2614'), ('INVOCATION_ID', '19b32bbd162e478cafb893c39b5f0eb6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_example:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/sakshi/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:733e1428-b62f-429d-aa0b-97c31f4f44bd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ClutterBot/build/task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sakshi/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/sakshi/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.301204] (-) TimerEvent: {}
+[0.402655] (-) TimerEvent: {}
+[0.503276] (-) TimerEvent: {}
+[0.603847] (-) TimerEvent: {}
+[0.704413] (-) TimerEvent: {}
+[0.805095] (-) TimerEvent: {}
+[0.905703] (-) TimerEvent: {}
+[1.035993] (-) TimerEvent: {}
+[1.136534] (-) TimerEvent: {}
+[1.236948] (-) TimerEvent: {}
+[1.337539] (-) TimerEvent: {}
+[1.438184] (-) TimerEvent: {}
+[1.538904] (-) TimerEvent: {}
+[1.639518] (-) TimerEvent: {}
+[1.740137] (-) TimerEvent: {}
+[1.840761] (-) TimerEvent: {}
+[1.941324] (-) TimerEvent: {}
+[2.041896] (-) TimerEvent: {}
+[2.142449] (-) TimerEvent: {}
+[2.243042] (-) TimerEvent: {}
+[2.343637] (-) TimerEvent: {}
+[2.444249] (-) TimerEvent: {}
+[2.544868] (-) TimerEvent: {}
+[2.645483] (-) TimerEvent: {}
+[2.746086] (-) TimerEvent: {}
+[2.846720] (-) TimerEvent: {}
+[2.947341] (-) TimerEvent: {}
+[3.047970] (-) TimerEvent: {}
+[3.148617] (-) TimerEvent: {}
+[3.249210] (-) TimerEvent: {}
+[3.349867] (-) TimerEvent: {}
+[3.450523] (-) TimerEvent: {}
+[3.551029] (-) TimerEvent: {}
+[3.651466] (-) TimerEvent: {}
+[3.752060] (-) TimerEvent: {}
+[3.852666] (-) TimerEvent: {}
+[3.953268] (-) TimerEvent: {}
+[4.053856] (-) TimerEvent: {}
+[4.154406] (-) TimerEvent: {}
+[4.254982] (-) TimerEvent: {}
+[4.355534] (-) TimerEvent: {}
+[4.440922] (task) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target noisyodom\x1b[0m\n'}
+[4.455788] (-) TimerEvent: {}
+[4.556425] (-) TimerEvent: {}
+[4.656825] (-) TimerEvent: {}
+[4.689479] (task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o\x1b[0m\n'}
+[4.756995] (-) TimerEvent: {}
+[4.857629] (-) TimerEvent: {}
+[4.958275] (-) TimerEvent: {}
+[5.058878] (-) TimerEvent: {}
+[5.159488] (-) TimerEvent: {}
+[5.259999] (-) TimerEvent: {}
+[5.360511] (-) TimerEvent: {}
+[5.461651] (-) TimerEvent: {}
+[5.562301] (-) TimerEvent: {}
+[5.662953] (-) TimerEvent: {}
+[5.763633] (-) TimerEvent: {}
+[5.864286] (-) TimerEvent: {}
+[5.964931] (-) TimerEvent: {}
+[6.065581] (-) TimerEvent: {}
+[6.166204] (-) TimerEvent: {}
+[6.266777] (-) TimerEvent: {}
+[6.367403] (-) TimerEvent: {}
+[6.468044] (-) TimerEvent: {}
+[6.568711] (-) TimerEvent: {}
+[6.669339] (-) TimerEvent: {}
+[6.769989] (-) TimerEvent: {}
+[6.870388] (-) TimerEvent: {}
+[6.970849] (-) TimerEvent: {}
+[7.071453] (-) TimerEvent: {}
+[7.172060] (-) TimerEvent: {}
+[7.272616] (-) TimerEvent: {}
+[7.373171] (-) TimerEvent: {}
+[7.473612] (-) TimerEvent: {}
+[7.574237] (-) TimerEvent: {}
+[7.674851] (-) TimerEvent: {}
+[7.775394] (-) TimerEvent: {}
+[7.875820] (-) TimerEvent: {}
+[7.976438] (-) TimerEvent: {}
+[8.077061] (-) TimerEvent: {}
+[8.177580] (-) TimerEvent: {}
+[8.277825] (-) TimerEvent: {}
+[8.378111] (-) TimerEvent: {}
+[8.478568] (-) TimerEvent: {}
+[8.579165] (-) TimerEvent: {}
+[8.679882] (-) TimerEvent: {}
+[8.780509] (-) TimerEvent: {}
+[8.881098] (-) TimerEvent: {}
+[8.981837] (-) TimerEvent: {}
+[9.082538] (-) TimerEvent: {}
+[9.183002] (-) TimerEvent: {}
+[9.283524] (-) TimerEvent: {}
+[9.383808] (-) TimerEvent: {}
+[9.484114] (-) TimerEvent: {}
+[9.584421] (-) TimerEvent: {}
+[9.684731] (-) TimerEvent: {}
+[9.785049] (-) TimerEvent: {}
+[9.885361] (-) TimerEvent: {}
+[9.985654] (-) TimerEvent: {}
+[10.085936] (-) TimerEvent: {}
+[10.186250] (-) TimerEvent: {}
+[10.286569] (-) TimerEvent: {}
+[10.386881] (-) TimerEvent: {}
+[10.487195] (-) TimerEvent: {}
+[10.587527] (-) TimerEvent: {}
+[10.687844] (-) TimerEvent: {}
+[10.788151] (-) TimerEvent: {}
+[10.888483] (-) TimerEvent: {}
+[10.988860] (-) TimerEvent: {}
+[11.089221] (-) TimerEvent: {}
+[11.189558] (-) TimerEvent: {}
+[11.289816] (-) TimerEvent: {}
+[11.390111] (-) TimerEvent: {}
+[11.490399] (-) TimerEvent: {}
+[11.590689] (-) TimerEvent: {}
+[11.690953] (-) TimerEvent: {}
+[11.791325] (-) TimerEvent: {}
+[11.891875] (-) TimerEvent: {}
+[11.943806] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In constructor \xe2\x80\x98NoisyOdometryNode::NoisyOdometryNode()\xe2\x80\x99:\n'}
+[11.944086] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:10:51: error: no matching function for call to \xe2\x80\x98tf2_ros::TransformBroadcaster::TransformBroadcaster()\xe2\x80\x99\n'}
+[11.944177] (task) StderrLine: {'line': b'   10 |   NoisyOdometryNode() : Node("noisy_odometry_node")\n'}
+[11.944252] (task) StderrLine: {'line': b'      |                                                   ^\n'}
+[11.944319] (task) StderrLine: {'line': b'In file included from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:3:\n'}
+[11.944391] (task) StderrLine: {'line': b'/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3: note: candidate: \xe2\x80\x98template<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\xe2\x80\x99\n'}
+[11.944464] (task) StderrLine: {'line': b'   53 |   TransformBroadcaster(\n'}
+[11.944530] (task) StderrLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~~~\n'}
+[11.944594] (task) StderrLine: {'line': b'/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:53:3: note:   template argument deduction/substitution failed:\n'}
+[11.944660] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:10:51: note:   candidate expects 3 arguments, 0 provided\n'}
+[11.944723] (task) StderrLine: {'line': b'   10 |   NoisyOdometryNode() : Node("noisy_odometry_node")\n'}
+[11.944802] (task) StderrLine: {'line': b'      |                                                   ^\n'}
+[11.944869] (task) StderrLine: {'line': b'In file included from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:3:\n'}
+[11.944931] (task) StderrLine: {'line': b'/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note: candidate: \xe2\x80\x98tf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)\xe2\x80\x99\n'}
+[11.944998] (task) StderrLine: {'line': b'   49 | class TransformBroadcaster{\n'}
+[11.945060] (task) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~\n'}
+[11.945122] (task) StderrLine: {'line': b'/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note:   candidate expects 1 argument, 0 provided\n'}
+[11.945185] (task) StderrLine: {'line': b'/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note: candidate: \xe2\x80\x98tf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)\xe2\x80\x99\n'}
+[11.945249] (task) StderrLine: {'line': b'/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:49:7: note:   candidate expects 1 argument, 0 provided\n'}
+[11.945312] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function \xe2\x80\x98void NoisyOdometryNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\xe2\x80\x99:\n'}
+[11.945379] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:26: error: \xe2\x80\x98class tf2_ros::TransformBroadcaster\xe2\x80\x99 has no member named \xe2\x80\x98canTransform\xe2\x80\x99; did you mean \xe2\x80\x98sendTransform\xe2\x80\x99?\n'}
+[11.945443] (task) StderrLine: {'line': b'   48 |     if (!tf_broadcaster_.canTransform("map", "odom", tf2::TimePointZero))\n'}
+[11.945529] (task) StderrLine: {'line': b'      |                          ^~~~~~~~~~~~\n'}
+[11.945596] (task) StderrLine: {'line': b'      |                          sendTransform\n'}
+[11.945658] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:54: error: \xe2\x80\x98tf2\xe2\x80\x99 has not been declared\n'}
+[11.945720] (task) StderrLine: {'line': b'   48 |     if (!tf_broadcaster_.canTransform("map", "odom", tf2::TimePointZero))\n'}
+[11.945781] (task) StderrLine: {'line': b'      |                                                      ^~~\n'}
+[11.992103] (-) TimerEvent: {}
+[12.023892] (task) StderrLine: {'line': b'make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1\n'}
+[12.024617] (task) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2\n'}
+[12.025208] (task) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[12.030328] (task) CommandEnded: {'returncode': 2}
+[12.095682] (-) TimerEvent: {}
+[12.196325] (-) TimerEvent: {}
+[12.297382] (-) TimerEvent: {}
+[12.371373] (task) JobEnded: {'identifier': 'task', 'rc': 2}
+[12.382668] (-) EventReactorShutdown: {}

@@ -1,0 +1,148 @@
+ -fuse-ld=lld -Wl,--disable-new-dtags
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h: In function ‘void rle(OutputIterator&, const Iterator&, const Iterator&)’:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  140 |  if (count>0)
+      |  ^~
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  142 |   out++;
+      |   ^~~
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/utils/point.h: At global scope:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/utils/point.h:205:2: warning: extra ‘;’ [-Wpedantic]
+  205 | }; //end namespace
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2: warning: extra ‘;’ [-Wpedantic]
+   21 | }; //end namespace
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2: warning: extra ‘;’ [-Wpedantic]
+   23 | }; //end namespace
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2: warning: extra ‘;’ [-Wpedantic]
+   17 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2: warning: extra ‘;’ [-Wpedantic]
+   33 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2: warning: extra ‘;’ [-Wpedantic]
+   27 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2: warning: extra ‘;’ [-Wpedantic]
+   24 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2: warning: extra ‘;’ [-Wpedantic]
+   15 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2: warning: extra ‘;’ [-Wpedantic]
+   27 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/map.h:5,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2: warning: extra ‘;’ [-Wpedantic]
+    6 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/map.h:6,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2: warning: extra ‘;’ [-Wpedantic]
+  185 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/map.h:262:2: warning: extra ‘;’ [-Wpedantic]
+  262 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2: warning: extra ‘;’ [-Wpedantic]
+   96 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2: warning: extra ‘;’ [-Wpedantic]
+  197 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2: warning: extra ‘;’ [-Wpedantic]
+   52 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7,
+                 from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2: warning: extra ‘;’ [-Wpedantic]
+  145 | }; //end namespace
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2: warning: extra ‘;’ [-Wpedantic]
+  250 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2: warning: extra ‘;’ [-Wpedantic]
+   17 | };
+      |  ^
+In file included from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45,
+                 from /home/sakshi/ClutterBot/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24:
+/home/sakshi/ClutterBot/src/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2: warning: extra ‘;’ [-Wpedantic]
+  335 | };
+      |  ^

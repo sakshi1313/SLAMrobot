@@ -1,0 +1,70 @@
+[0.208s] Invoking command in '/home/sakshi/ClutterBot/src/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/src/install/slam_toolbox
+[0.318s] -- The C compiler identification is GNU 9.4.0
+[0.426s] -- The CXX compiler identification is GNU 9.4.0
+[0.438s] -- Check for working C compiler: /usr/lib/ccache/cc
+[0.669s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[0.670s] -- Detecting C compiler ABI info
+[0.740s] -- Detecting C compiler ABI info - done
+[0.754s] -- Detecting C compile features
+[0.754s] -- Detecting C compile features - done
+[0.757s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[0.918s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[0.920s] -- Detecting CXX compiler ABI info
+[1.001s] -- Detecting CXX compiler ABI info - done
+[1.019s] -- Detecting CXX compile features
+[1.019s] -- Detecting CXX compile features - done
+[1.023s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.064s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.646s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.660s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.748s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.914s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.969s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.313s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.369s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.372s] -- Looking for pthread.h
+[2.508s] -- Looking for pthread.h - found
+[2.509s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.646s] -- Looking for pthread_create in pthreads
+[2.716s] -- Looking for pthread_create in pthreads - not found
+[2.717s] -- Looking for pthread_create in pthread
+[2.781s] -- Looking for pthread_create in pthread - found
+[2.788s] -- Found Threads: TRUE  
+[2.951s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.033s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.047s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.413s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[3.497s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[3.518s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[3.529s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.534s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.563s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[3.584s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.597s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.614s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[3.632s] CMake Error at CMakeLists.txt:29 (find_package):
+[3.632s]   By not providing "Findbondcpp.cmake" in CMAKE_MODULE_PATH this project has
+[3.632s]   asked CMake to find a package configuration file provided by "bondcpp", but
+[3.632s]   CMake did not find one.
+[3.632s] 
+[3.632s]   Could not find a package configuration file provided by "bondcpp" with any
+[3.632s]   of the following names:
+[3.633s] 
+[3.633s]     bondcppConfig.cmake
+[3.633s]     bondcpp-config.cmake
+[3.633s] 
+[3.633s]   Add the installation prefix of "bondcpp" to CMAKE_PREFIX_PATH or set
+[3.633s]   "bondcpp_DIR" to a directory containing one of the above files.  If
+[3.633s]   "bondcpp" provides a separate development package or SDK, be sure it has
+[3.633s]   been installed.
+[3.633s] 
+[3.633s] 
+[3.635s] -- Configuring incomplete, errors occurred!
+[3.635s] See also "/home/sakshi/ClutterBot/src/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[3.635s] See also "/home/sakshi/ClutterBot/src/build/slam_toolbox/CMakeFiles/CMakeError.log".
+[3.644s] Invoked command in '/home/sakshi/ClutterBot/src/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/src/install/slam_toolbox

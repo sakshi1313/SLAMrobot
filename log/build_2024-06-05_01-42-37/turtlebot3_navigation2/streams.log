@@ -1,0 +1,31 @@
+[2.974s] Invoking command in '/home/sakshi/ClutterBot/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/turtlebot3_navigation2 -- -j8 -l8
+[4.534s] Invoked command in '/home/sakshi/ClutterBot/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/turtlebot3_navigation2 -- -j8 -l8
+[4.822s] Invoking command in '/home/sakshi/ClutterBot/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/turtlebot3_navigation2
+[4.861s] -- Install configuration: ""
+[4.862s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[5.060s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[5.086s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[5.088s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[5.088s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[5.088s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[5.116s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[5.116s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[5.116s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[5.117s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[5.185s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[5.186s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[5.186s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[5.186s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[5.186s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[5.187s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[5.187s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[5.187s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[5.202s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[5.202s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[5.202s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[5.202s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[5.202s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[5.202s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[5.203s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[5.203s] -- Up-to-date: /home/sakshi/ClutterBot/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[7.066s] Invoked command in '/home/sakshi/ClutterBot/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/turtlebot3_navigation2

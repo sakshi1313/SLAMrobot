@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/sakshi/ClutterBot/install/turtlebot3_fake_node/include/**",
+        "/home/sakshi/ClutterBot/install/turtlebot3_msgs/include/**",
+        "/home/sakshi/ClutterBot/install/turtlebot3_gazebo/include/**",
+        "/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/sakshi/ClutterBot/install/dynamixel_sdk/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/sakshi/ClutterBot/src/task/include/**",
+        "/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_node/include/**",
+        "/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/**",
+        "/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/sakshi/ClutterBot/src/utils/DynamixelSDK/dynamixel_sdk/include/**",
+        "/home/sakshi/ClutterBot/src/utils/DynamixelSDK/dynamixel_sdk_examples/include/**",
+        "/home/sakshi/ClutterBot/src/utils/hls_lfcd_lds_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

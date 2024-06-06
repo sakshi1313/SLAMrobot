@@ -1,0 +1,152 @@
+[1.232s] Invoking command in '/home/sakshi/ClutterBot/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[3.605s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[4.045s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[4.534s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[4.910s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[5.388s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[5.827s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.244s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[6.868s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[7.032s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[7.185s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[7.432s] [ 84%] Built target dynamixel_sdk_custom_interfaces__python
+[7.850s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[8.169s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.422s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.474s] Invoked command in '/home/sakshi/ClutterBot/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[8.732s] Invoking command in '/home/sakshi/ClutterBot/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/dynamixel_sdk_custom_interfaces
+[8.857s] -- Install configuration: ""
+[8.857s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[8.858s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[8.858s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[8.861s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.861s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[8.862s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[8.862s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[8.862s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c
+[8.863s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[8.863s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[8.863s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[8.863s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[8.863s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[8.864s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c
+[8.864s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[8.864s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[8.866s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[8.866s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[8.866s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[8.926s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[8.926s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[8.926s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[8.926s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.926s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[8.927s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[8.927s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[8.927s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[8.927s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[8.994s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.995s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[8.996s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[8.997s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[8.997s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[8.997s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps
+[8.997s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.997s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[8.997s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[8.998s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[8.998s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps
+[9.089s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.090s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[9.091s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[9.091s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.092s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[9.092s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[9.092s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c
+[9.092s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[9.094s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[9.095s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[9.095s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c
+[9.095s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[9.098s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[9.099s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[9.101s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[9.102s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[9.102s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[9.105s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[9.107s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp
+[9.107s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[9.108s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[9.108s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.109s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[9.109s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[9.109s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[9.109s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp
+[9.110s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[9.110s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[9.110s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[9.110s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces
+[9.110s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg
+[9.111s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail
+[9.111s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[9.111s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp
+[9.111s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv
+[9.112s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail
+[9.113s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[9.113s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp
+[9.121s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.146s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[9.148s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[9.148s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[9.148s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[9.389s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg
+[9.390s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[9.391s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[9.393s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[9.394s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv
+[9.394s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[9.394s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[9.395s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[9.496s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[9.627s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[9.695s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[9.797s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__python.so
+[9.799s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[9.801s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[9.802s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[9.804s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[9.806s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[9.806s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[9.806s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[9.807s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[9.807s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[9.807s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[9.807s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[9.807s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[9.808s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[9.808s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[9.808s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[9.808s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[9.809s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[9.819s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[9.849s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[9.850s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.850s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.851s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.015s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[10.015s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.183s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[10.341s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.342s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.522s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[10.522s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.522s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[10.525s] -- Up-to-date: /home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[10.561s] Invoked command in '/home/sakshi/ClutterBot/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/dynamixel_sdk_custom_interfaces

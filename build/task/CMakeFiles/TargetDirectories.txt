@@ -1,0 +1,10 @@
+/home/sakshi/ClutterBot/build/task/CMakeFiles/install/strip.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/install/local.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/install.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/list_install_components.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/rebuild_cache.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/edit_cache.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/test.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/noisyodom.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/task_uninstall.dir
+/home/sakshi/ClutterBot/build/task/CMakeFiles/uninstall.dir

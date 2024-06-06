@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target noisyodom[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In constructor ‘NoisyOdometryNode::NoisyOdometryNode()’:
+/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:23:19: error: no match for ‘operator=’ (operand types are ‘std::normal_distribution<double>’ and ‘double’)
+   23 |     noise_dist_ = 0.2 // Mean 0, standard deviation 0.005
+      |                   ^~~
+In file included from /usr/include/c++/9/random:49,
+                 from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:5:
+/usr/include/c++/9/bits/random.h:1964:11: note: candidate: ‘constexpr std::normal_distribution<double>& std::normal_distribution<double>::operator=(const std::normal_distribution<double>&)’
+ 1964 |     class normal_distribution
+      |           ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/9/bits/random.h:1964:11: note:   no known conversion for argument 1 from ‘double’ to ‘const std::normal_distribution<double>&’
+/usr/include/c++/9/bits/random.h:1964:11: note: candidate: ‘constexpr std::normal_distribution<double>& std::normal_distribution<double>::operator=(std::normal_distribution<double>&&)’
+/usr/include/c++/9/bits/random.h:1964:11: note:   no known conversion for argument 1 from ‘double’ to ‘std::normal_distribution<double>&&’
+make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,85 @@
+[0.706s] Invoking command in '/home/sakshi/ClutterBot/src/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sakshi/ClutterBot/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/src/install/turtlebot3_fake_node
+[0.817s] -- The C compiler identification is GNU 9.4.0
+[0.913s] -- The CXX compiler identification is GNU 9.4.0
+[0.922s] -- Check for working C compiler: /usr/lib/ccache/cc
+[1.094s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[1.095s] -- Detecting C compiler ABI info
+[1.197s] -- Detecting C compiler ABI info - done
+[1.220s] -- Detecting C compile features
+[1.221s] -- Detecting C compile features - done
+[1.224s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[1.425s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[1.427s] -- Detecting CXX compiler ABI info
+[1.638s] -- Detecting CXX compiler ABI info - done
+[1.663s] -- Detecting CXX compile features
+[1.663s] -- Detecting CXX compile features - done
+[1.667s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.734s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.734s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.152s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.209s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.313s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.346s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.571s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.676s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.777s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.781s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.782s] -- Looking for pthread.h
+[2.969s] -- Looking for pthread.h - found
+[2.969s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.157s] -- Looking for pthread_create in pthreads
+[3.225s] -- Looking for pthread_create in pthreads - not found
+[3.226s] -- Looking for pthread_create in pthread
+[3.326s] -- Looking for pthread_create in pthread - found
+[3.327s] -- Found Threads: TRUE  
+[3.512s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.595s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.611s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[3.851s] -- Found turtlebot3_msgs: 2.2.1 (/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[4.048s] -- Configuring done
+[4.074s] -- Generating done
+[4.076s] -- Build files have been written to: /home/sakshi/ClutterBot/src/build/turtlebot3_fake_node
+[4.096s] Invoked command in '/home/sakshi/ClutterBot/src/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sakshi/ClutterBot/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/src/install/turtlebot3_fake_node
+[4.099s] Invoking command in '/home/sakshi/ClutterBot/src/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sakshi/ClutterBot/src/build/turtlebot3_fake_node -- -j8 -l8
+[4.164s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[4.396s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[51.544s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[66.461s] [100%] Built target turtlebot3_fake_node
+[66.474s] Invoked command in '/home/sakshi/ClutterBot/src/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sakshi/ClutterBot/src/build/turtlebot3_fake_node -- -j8 -l8
+[66.502s] Invoking command in '/home/sakshi/ClutterBot/src/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sakshi/ClutterBot/src/build/turtlebot3_fake_node
+[66.513s] -- Install configuration: ""
+[66.513s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[66.516s] -- Set runtime path of "/home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[66.516s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[66.516s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[66.623s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[66.656s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[66.842s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[66.889s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[66.890s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[66.890s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz
+[66.897s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[66.897s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/include/
+[66.897s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[66.897s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[66.909s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[66.909s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[66.910s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[66.910s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[66.910s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[66.910s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[66.910s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[66.910s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[66.910s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[66.911s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[66.911s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[66.911s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[66.911s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.911s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.911s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[66.912s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[66.912s] -- Installing: /home/sakshi/ClutterBot/src/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[67.678s] Invoked command in '/home/sakshi/ClutterBot/src/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy LD_LIBRARY_PATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sakshi/ClutterBot/src/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sakshi/ClutterBot/src/build/turtlebot3_fake_node

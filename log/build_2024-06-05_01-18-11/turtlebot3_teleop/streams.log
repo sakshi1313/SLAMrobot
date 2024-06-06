@@ -1,0 +1,42 @@
+[1.287s] Invoking command in '/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/sakshi/ClutterBot/build/turtlebot3_teleop/prefix_override:/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/sakshi/ClutterBot/build/turtlebot3_teleop/build install --record /home/sakshi/ClutterBot/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[9.702s] running egg_info
+[9.704s] creating ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[9.704s] writing ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[9.704s] writing dependency_links to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[9.704s] writing entry points to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[9.705s] writing requirements to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[9.705s] writing top-level names to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[9.705s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[9.705s] reading manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[9.705s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[9.705s] running build
+[9.707s] running build_py
+[9.709s] creating /home/sakshi/ClutterBot/build/turtlebot3_teleop/build
+[9.709s] creating /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib
+[9.710s] creating /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[9.710s] copying turtlebot3_teleop/__init__.py -> /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[9.710s] creating /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[9.710s] copying turtlebot3_teleop/script/__init__.py -> /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[9.710s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[9.711s] running install
+[9.713s] running install_lib
+[9.713s] creating /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[9.713s] creating /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[9.713s] copying /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[9.714s] copying /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[9.714s] copying /home/sakshi/ClutterBot/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[9.714s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-38.pyc
+[9.714s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc
+[9.714s] byte-compiling /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-38.pyc
+[9.715s] running install_data
+[9.715s] creating /home/sakshi/ClutterBot/install/turtlebot3_teleop/share/ament_index
+[9.716s] creating /home/sakshi/ClutterBot/install/turtlebot3_teleop/share/ament_index/resource_index
+[9.718s] creating /home/sakshi/ClutterBot/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[9.718s] copying resource/turtlebot3_teleop -> /home/sakshi/ClutterBot/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[9.719s] copying package.xml -> /home/sakshi/ClutterBot/install/turtlebot3_teleop/share/turtlebot3_teleop
+[9.719s] running install_egg_info
+[9.720s] Copying ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.4-py3.8.egg-info
+[9.721s] running install_scripts
+[9.721s] Installing teleop_keyboard script to /home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[9.723s] writing list of installed files to '/home/sakshi/ClutterBot/build/turtlebot3_teleop/install.log'
+[9.725s] Invoked command in '/home/sakshi/ClutterBot/src/turtlebot3/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/sakshi/ClutterBot/build/turtlebot3_teleop/prefix_override:/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/sakshi/ClutterBot/build/turtlebot3_teleop/build install --record /home/sakshi/ClutterBot/build/turtlebot3_teleop/install.log --single-version-externally-managed

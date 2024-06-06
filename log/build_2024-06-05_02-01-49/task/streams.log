@@ -1,0 +1,58 @@
+[0.129s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/task -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/task
+[8.747s] -- The C compiler identification is GNU 9.4.0
+[11.837s] -- The CXX compiler identification is GNU 9.4.0
+[12.138s] -- Check for working C compiler: /usr/lib/ccache/cc
+[12.792s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[12.794s] -- Detecting C compiler ABI info
+[13.199s] -- Detecting C compiler ABI info - done
+[13.220s] -- Detecting C compile features
+[13.236s] -- Detecting C compile features - done
+[13.253s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[13.503s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[13.504s] -- Detecting CXX compiler ABI info
+[13.935s] -- Detecting CXX compiler ABI info - done
+[13.949s] -- Detecting CXX compile features
+[13.950s] -- Detecting CXX compile features - done
+[14.059s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[14.234s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[14.235s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.176s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[15.688s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.692s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.693s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sakshi/ClutterBot/src/task/include>
+[15.694s] -- Configured cppcheck exclude dirs and/or files: 
+[15.698s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.698s] -- Configured cpplint exclude dirs and/or files: 
+[15.703s] -- Added test 'lint_cmake' to check CMake code style
+[15.706s] -- Added test 'uncrustify' to check C / C++ code style
+[15.707s] -- Configured uncrustify additional arguments: 
+[15.708s] -- Added test 'xmllint' to check XML markup files
+[15.713s] -- Configuring done
+[15.767s] -- Generating done
+[15.796s] -- Build files have been written to: /home/sakshi/ClutterBot/build/task
+[15.800s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/task -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/task
+[15.803s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[15.842s] [35m[1mScanning dependencies of target noisyodom[0m
+[15.910s] [ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+[16.647s] [100%] [32m[1mLinking CXX executable noisyodom[0m
+[16.795s] [100%] Built target noisyodom
+[16.807s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[16.834s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/task
+[16.842s] -- Install configuration: ""
+[16.842s] -- Installing: /home/sakshi/ClutterBot/install/task/lib/task/noisyodom
+[16.842s] -- Installing: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/package_run_dependencies/task
+[16.842s] -- Installing: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/parent_prefix_path/task
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/environment/ament_prefix_path.sh
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/environment/ament_prefix_path.dsv
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/environment/path.sh
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/environment/path.dsv
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/local_setup.bash
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/local_setup.sh
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/local_setup.zsh
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/local_setup.dsv
+[16.843s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/package.dsv
+[16.844s] -- Installing: /home/sakshi/ClutterBot/install/task/share/ament_index/resource_index/packages/task
+[16.844s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/cmake/taskConfig.cmake
+[16.844s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/cmake/taskConfig-version.cmake
+[16.844s] -- Installing: /home/sakshi/ClutterBot/install/task/share/task/package.xml
+[16.848s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/task

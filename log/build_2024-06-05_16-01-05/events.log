@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000722] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000761] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000904] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000925] (-) JobUnselected: {'identifier': 'hls_lfcd_lds_driver'}
+[0.000942] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001348] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001386] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001420] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001924] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002316] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002364] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002395] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002425] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002455] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002484] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.002533] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.002566] (task) JobQueued: {'identifier': 'task', 'dependencies': OrderedDict()}
+[0.002613] (task) JobStarted: {'identifier': 'task'}
+[0.019967] (task) JobProgress: {'identifier': 'task', 'progress': 'cmake'}
+[0.020916] (task) JobProgress: {'identifier': 'task', 'progress': 'build'}
+[0.021855] (task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sakshi/ClutterBot/build/task', '--', '-j8', '-l8'], 'cwd': '/home/sakshi/ClutterBot/build/task', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sakshi'), ('GIT_EDITOR', 'vim'), ('SSH_AGENT_PID', '2572'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib:/home/sakshi/ClutterBot/install/dynamixel_sdk/lib:/usr/local/cuda-11.0/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sakshi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2366'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '47280'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sakshi/ClutterBot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sakshi'), ('JOURNAL_STREAM', '9:66804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sakshi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.0/bin:/opt/ros/foxy/bin:/usr/lib/ccache:/home/sakshi/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/sakshi/.local/bin:/home/sakshi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sakshi/.fzf/bin'), ('SESSION_MANAGER', 'local/sakshi-G3-3500:@/tmp/.ICE-unix/2614,unix/sakshi-G3-3500:/tmp/.ICE-unix/2614'), ('INVOCATION_ID', '19b32bbd162e478cafb893c39b5f0eb6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_example:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:909bbc20-0124-4d21-9a15-1533075a5816'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sakshi/ClutterBot/build/task'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sakshi/ClutterBot/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_example/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sakshi/ClutterBot/install/turtlebot3:/home/sakshi/ClutterBot/install/turtlebot3_simulations:/home/sakshi/ClutterBot/install/turtlebot3_bringup:/home/sakshi/ClutterBot/install/turtlebot3_node:/home/sakshi/ClutterBot/install/turtlebot3_navigation2:/home/sakshi/ClutterBot/install/turtlebot3_fake_node:/home/sakshi/ClutterBot/install/turtlebot3_msgs:/home/sakshi/ClutterBot/install/turtlebot3_gazebo:/home/sakshi/ClutterBot/install/turtlebot3_description:/home/sakshi/ClutterBot/install/turtlebot3_cartographer:/home/sakshi/ClutterBot/install/task:/home/sakshi/ClutterBot/install/hls_lfcd_lds_driver:/home/sakshi/ClutterBot/install/dynamixel_sdk_examples:/home/sakshi/ClutterBot/install/dynamixel_sdk_custom_interfaces:/home/sakshi/ClutterBot/install/dynamixel_sdk:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.100074] (-) TimerEvent: {}
+[0.200469] (-) TimerEvent: {}
+[0.301002] (-) TimerEvent: {}
+[0.302537] (task) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target noisyodom\x1b[0m\n'}
+[0.343020] (task) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o\x1b[0m\n'}
+[0.401337] (-) TimerEvent: {}
+[0.502405] (-) TimerEvent: {}
+[0.603217] (-) TimerEvent: {}
+[0.703456] (-) TimerEvent: {}
+[0.803730] (-) TimerEvent: {}
+[0.904010] (-) TimerEvent: {}
+[1.004301] (-) TimerEvent: {}
+[1.104767] (-) TimerEvent: {}
+[1.205109] (-) TimerEvent: {}
+[1.305503] (-) TimerEvent: {}
+[1.406074] (-) TimerEvent: {}
+[1.506373] (-) TimerEvent: {}
+[1.606676] (-) TimerEvent: {}
+[1.707138] (-) TimerEvent: {}
+[1.807773] (-) TimerEvent: {}
+[1.908401] (-) TimerEvent: {}
+[2.008732] (-) TimerEvent: {}
+[2.109049] (-) TimerEvent: {}
+[2.209386] (-) TimerEvent: {}
+[2.309730] (-) TimerEvent: {}
+[2.410013] (-) TimerEvent: {}
+[2.510505] (-) TimerEvent: {}
+[2.611402] (-) TimerEvent: {}
+[2.711839] (-) TimerEvent: {}
+[2.812452] (-) TimerEvent: {}
+[2.912757] (-) TimerEvent: {}
+[3.013115] (-) TimerEvent: {}
+[3.113397] (-) TimerEvent: {}
+[3.213753] (-) TimerEvent: {}
+[3.314103] (-) TimerEvent: {}
+[3.414459] (-) TimerEvent: {}
+[3.514908] (-) TimerEvent: {}
+[3.615278] (-) TimerEvent: {}
+[3.715618] (-) TimerEvent: {}
+[3.815910] (-) TimerEvent: {}
+[3.916196] (-) TimerEvent: {}
+[4.016534] (-) TimerEvent: {}
+[4.116927] (-) TimerEvent: {}
+[4.156543] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function \xe2\x80\x98void NoiseNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\xe2\x80\x99:\n'}
+[4.157204] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:46:34: error: \xe2\x80\x98toMsg\xe2\x80\x99 is not a member of \xe2\x80\x98tf2\xe2\x80\x99\n'}
+[4.157421] (task) StderrLine: {'line': b'   46 |     tf.transform.rotation = tf2::toMsg(q.normalize());\n'}
+[4.157541] (task) StderrLine: {'line': b'      |                                  ^~~~~\n'}
+[4.157642] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function \xe2\x80\x98double NoiseNode::getNoise()\xe2\x80\x99:\n'}
+[4.157738] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:53:17: error: \xe2\x80\x98random_device\xe2\x80\x99 in namespace \xe2\x80\x98std\xe2\x80\x99 does not name a type\n'}
+[4.157840] (task) StderrLine: {'line': b'   53 |     static std::random_device rd;\n'}
+[4.157919] (task) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~\n'}
+[4.157997] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:54:17: error: \xe2\x80\x98mt19937\xe2\x80\x99 in namespace \xe2\x80\x98std\xe2\x80\x99 does not name a type\n'}
+[4.158086] (task) StderrLine: {'line': b'   54 |     static std::mt19937 gen(rd());\n'}
+[4.158171] (task) StderrLine: {'line': b'      |                 ^~~~~~~\n'}
+[4.158256] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:55:17: error: \xe2\x80\x98normal_distribution\xe2\x80\x99 in namespace \xe2\x80\x98std\xe2\x80\x99 does not name a template type; did you mean \xe2\x80\x98uniform_int_distribution\xe2\x80\x99?\n'}
+[4.158356] (task) StderrLine: {'line': b'   55 |     static std::normal_distribution<> d(0.0, 0.1); // Mean 0, standard deviation 0.1\n'}
+[4.158477] (task) StderrLine: {'line': b'      |                 ^~~~~~~~~~~~~~~~~~~\n'}
+[4.158567] (task) StderrLine: {'line': b'      |                 uniform_int_distribution\n'}
+[4.158685] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:56:14: error: \xe2\x80\x98gen\xe2\x80\x99 was not declared in this scope\n'}
+[4.158759] (task) StderrLine: {'line': b'   56 |     return d(gen);\n'}
+[4.158826] (task) StderrLine: {'line': b'      |              ^~~\n'}
+[4.158892] (task) StderrLine: {'line': b'/home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:56:12: error: \xe2\x80\x98d\xe2\x80\x99 was not declared in this scope\n'}
+[4.158969] (task) StderrLine: {'line': b'   56 |     return d(gen);\n'}
+[4.159035] (task) StderrLine: {'line': b'      |            ^\n'}
+[4.202489] (task) StderrLine: {'line': b'make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1\n'}
+[4.203198] (task) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2\n'}
+[4.203634] (task) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.207810] (task) CommandEnded: {'returncode': 2}
+[4.217644] (-) TimerEvent: {}
+[4.318559] (-) TimerEvent: {}
+[4.419512] (-) TimerEvent: {}
+[4.520121] (-) TimerEvent: {}
+[4.620698] (-) TimerEvent: {}
+[4.695418] (task) JobEnded: {'identifier': 'task', 'rc': 2}
+[4.707316] (-) EventReactorShutdown: {}

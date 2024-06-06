@@ -1,0 +1,28 @@
+[0.171s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[3.729s] [35m[1mScanning dependencies of target noisyodom[0m
+[4.063s] [ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+[37.557s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘void NoiseNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)’:
+[37.557s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:46:34: error: ‘toMsg’ is not a member of ‘tf2’
+[37.558s]    46 |     tf.transform.rotation = tf2::toMsg(q);
+[37.558s]       |                                  ^~~~~
+[37.559s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘double NoiseNode::getNoise()’:
+[37.559s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:53:17: error: ‘random_device’ in namespace ‘std’ does not name a type
+[37.559s]    53 |     static std::random_device rd;
+[37.559s]       |                 ^~~~~~~~~~~~~
+[37.560s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:54:17: error: ‘mt19937’ in namespace ‘std’ does not name a type
+[37.560s]    54 |     static std::mt19937 gen(rd());
+[37.560s]       |                 ^~~~~~~
+[37.560s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:55:17: error: ‘normal_distribution’ in namespace ‘std’ does not name a template type; did you mean ‘uniform_int_distribution’?
+[37.560s]    55 |     static std::normal_distribution<> d(0.0, 0.1); // Mean 0, standard deviation 0.1
+[37.561s]       |                 ^~~~~~~~~~~~~~~~~~~
+[37.561s]       |                 uniform_int_distribution
+[37.561s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:56:14: error: ‘gen’ was not declared in this scope
+[37.561s]    56 |     return d(gen);
+[37.562s]       |              ^~~
+[37.562s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:56:12: error: ‘d’ was not declared in this scope
+[37.562s]    56 |     return d(gen);
+[37.563s]       |            ^
+[37.564s] make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+[37.566s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+[37.573s] make: *** [Makefile:141: all] Error 2
+[37.574s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8

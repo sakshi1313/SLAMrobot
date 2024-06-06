@@ -1,0 +1,60 @@
+[0.160s] Invoking command in '/home/sakshi/ClutterBot/build/task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy: /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8
+[0.833s] [35m[1mScanning dependencies of target noisyodom[0m
+[1.004s] [ 50%] [32mBuilding CXX object CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o[0m
+[20.824s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In constructor ‘NoiseNode::NoiseNode()’:
+[20.824s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:24:44: error: ‘tf_buffer’ was not declared in this scope; did you mean ‘setbuffer’?
+[20.825s]    24 |     tf2_ros::TransformListener tf_listener(tf_buffer);
+[20.825s]       |                                            ^~~~~~~~~
+[20.825s]       |                                            setbuffer
+[20.825s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp: In member function ‘void NoiseNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)’:
+[20.825s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:28: error: ‘tf_buffer’ was not declared in this scope; did you mean ‘setbuffer’?
+[20.826s]    48 |       existing_transform = tf_buffer.lookupTransform("odom", "map", ros::Time(0), ros::Duration(3.0));
+[20.826s]       |                            ^~~~~~~~~
+[20.826s]       |                            setbuffer
+[20.827s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:69: error: ‘ros’ has not been declared
+[20.827s]    48 |       existing_transform = tf_buffer.lookupTransform("odom", "map", ros::Time(0), ros::Duration(3.0));
+[20.827s]       |                                                                     ^~~
+[20.828s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:48:83: error: ‘ros’ has not been declared
+[20.828s]    48 |       existing_transform = tf_buffer.lookupTransform("odom", "map", ros::Time(0), ros::Duration(3.0));
+[20.829s]       |                                                                                   ^~~
+[20.829s] In file included from /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33,
+[20.829s]                  from /usr/include/c++/9/bits/allocator.h:46,
+[20.829s]                  from /usr/include/c++/9/memory:63,
+[20.831s]                  from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:144,
+[20.833s]                  from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:1:
+[20.836s] /usr/include/c++/9/ext/new_allocator.h: In instantiation of ‘void __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = tf2_ros::TransformListener; _Args = {NoiseNode&}; _Tp = tf2_ros::TransformListener]’:
+[20.836s] /usr/include/c++/9/bits/alloc_traits.h:483:4:   required from ‘static void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = tf2_ros::TransformListener; _Args = {NoiseNode&}; _Tp = tf2_ros::TransformListener; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<tf2_ros::TransformListener>]’
+[20.837s] /usr/include/c++/9/bits/shared_ptr_base.h:548:39:   required from ‘std::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {NoiseNode&}; _Tp = tf2_ros::TransformListener; _Alloc = std::allocator<tf2_ros::TransformListener>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]’
+[20.837s] /usr/include/c++/9/bits/shared_ptr_base.h:679:16:   required from ‘std::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = tf2_ros::TransformListener; _Alloc = std::allocator<tf2_ros::TransformListener>; _Args = {NoiseNode&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]’
+[20.838s] /usr/include/c++/9/bits/shared_ptr_base.h:1344:71:   required from ‘std::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::TransformListener>; _Args = {NoiseNode&}; _Tp = tf2_ros::TransformListener; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]’
+[20.838s] /usr/include/c++/9/bits/shared_ptr.h:359:59:   required from ‘std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<tf2_ros::TransformListener>; _Args = {NoiseNode&}; _Tp = tf2_ros::TransformListener]’
+[20.838s] /usr/include/c++/9/bits/shared_ptr.h:701:14:   required from ‘std::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = tf2_ros::TransformListener; _Alloc = std::allocator<tf2_ros::TransformListener>; _Args = {NoiseNode&}]’
+[20.838s] /usr/include/c++/9/bits/shared_ptr.h:717:39:   required from ‘std::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = tf2_ros::TransformListener; _Args = {NoiseNode&}]’
+[20.839s] /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:22:70:   required from here
+[20.839s] /usr/include/c++/9/ext/new_allocator.h:146:4: error: no matching function for call to ‘tf2_ros::TransformListener::TransformListener(NoiseNode&)’
+[20.839s]   146 |  { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
+[20.839s]       |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[20.840s] In file included from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:4:
+[20.840s] /opt/ros/foxy/include/tf2_ros/transform_listener.h:58:3: note: candidate: ‘template<class NodeT, class AllocatorT> tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, NodeT&&, bool, const rclcpp::QoS&, const rclcpp::QoS&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)’
+[20.840s]    58 |   TransformListener(
+[20.840s]       |   ^~~~~~~~~~~~~~~~~
+[20.840s] /opt/ros/foxy/include/tf2_ros/transform_listener.h:58:3: note:   template argument deduction/substitution failed:
+[20.841s] In file included from /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33,
+[20.841s]                  from /usr/include/c++/9/bits/allocator.h:46,
+[20.841s]                  from /usr/include/c++/9/memory:63,
+[20.841s]                  from /opt/ros/foxy/include/rclcpp/rclcpp.hpp:144,
+[20.841s]                  from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:1:
+[20.842s] /usr/include/c++/9/ext/new_allocator.h:146:4: note:   candidate expects 6 arguments, 1 provided
+[20.842s]   146 |  { ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
+[20.842s]       |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[20.842s] In file included from /home/sakshi/ClutterBot/src/task/src/noisyodom.cpp:4:
+[20.842s] /opt/ros/foxy/include/tf2_ros/transform_listener.h:55:12: note: candidate: ‘tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)’
+[20.843s]    55 |   explicit TransformListener(tf2::BufferCore & buffer, bool spin_thread = true);
+[20.843s]       |            ^~~~~~~~~~~~~~~~~
+[20.843s] /opt/ros/foxy/include/tf2_ros/transform_listener.h:55:48: note:   no known conversion for argument 1 from ‘NoiseNode’ to ‘tf2::BufferCore&’
+[20.843s]    55 |   explicit TransformListener(tf2::BufferCore & buffer, bool spin_thread = true);
+[20.843s]       |                              ~~~~~~~~~~~~~~~~~~^~~~~~
+[20.872s] make[2]: *** [CMakeFiles/noisyodom.dir/build.make:63: CMakeFiles/noisyodom.dir/src/noisyodom.cpp.o] Error 1
+[20.883s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/noisyodom.dir/all] Error 2
+[20.890s] make: *** [Makefile:141: all] Error 2
+[20.900s] Invoked command in '/home/sakshi/ClutterBot/build/task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy: /usr/bin/cmake --build /home/sakshi/ClutterBot/build/task -- -j8 -l8

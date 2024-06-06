@@ -1,0 +1,74 @@
+[0.298s] Invoking command in '/home/sakshi/ClutterBot/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/utils/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/dynamixel_sdk
+[4.061s] -- The C compiler identification is GNU 9.4.0
+[5.422s] -- The CXX compiler identification is GNU 9.4.0
+[5.462s] -- Check for working C compiler: /usr/lib/ccache/cc
+[6.031s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[6.083s] -- Detecting C compiler ABI info
+[6.616s] -- Detecting C compiler ABI info - done
+[6.754s] -- Detecting C compile features
+[7.181s] -- Detecting C compile features - done
+[7.198s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[7.452s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[7.453s] -- Detecting CXX compiler ABI info
+[7.593s] -- Detecting CXX compiler ABI info - done
+[7.616s] -- Detecting CXX compile features
+[7.616s] -- Detecting CXX compile features - done
+[7.663s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.825s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.825s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.872s] -- Configuring done
+[9.975s] -- Generating done
+[9.976s] -- Build files have been written to: /home/sakshi/ClutterBot/build/dynamixel_sdk
+[9.991s] Invoked command in '/home/sakshi/ClutterBot/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/sakshi/ClutterBot/src/utils/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/sakshi/ClutterBot/install/dynamixel_sdk
+[9.992s] Invoking command in '/home/sakshi/ClutterBot/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/dynamixel_sdk -- -j8 -l8
+[10.085s] [35m[1mScanning dependencies of target dynamixel_sdk[0m
+[10.098s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[10.099s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[10.099s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[10.099s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[10.100s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[10.100s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[10.100s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[10.104s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[10.377s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[10.686s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[10.899s] [100%] Built target dynamixel_sdk
+[10.915s] Invoked command in '/home/sakshi/ClutterBot/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/sakshi/ClutterBot/build/dynamixel_sdk -- -j8 -l8
+[10.948s] Invoking command in '/home/sakshi/ClutterBot/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/dynamixel_sdk
+[10.956s] -- Install configuration: ""
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include/
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[10.957s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[10.958s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[10.958s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[10.958s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[10.958s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[10.958s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[10.958s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[10.959s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[10.959s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[10.959s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[10.959s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[10.959s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[10.960s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[10.960s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[10.960s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[10.960s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[10.960s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[10.960s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[10.960s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[10.961s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[10.961s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.961s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[10.961s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[10.961s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[10.961s] -- Installing: /home/sakshi/ClutterBot/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[10.967s] Invoked command in '/home/sakshi/ClutterBot/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sakshi/ClutterBot/install/turtlebot3_teleop:/home/sakshi/ClutterBot/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/sakshi/ClutterBot/build/dynamixel_sdk

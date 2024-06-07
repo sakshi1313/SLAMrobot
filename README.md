@@ -96,4 +96,3 @@ After running the simulations, you can compare the performance of Cartographer a
 
 ---
 
-Feel free to adjust the content as needed to better fit your repository and any additional details you may want to include.

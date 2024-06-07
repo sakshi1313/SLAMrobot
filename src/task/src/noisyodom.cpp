@@ -9,24 +9,21 @@ class NoisyOdometryNode : public rclcpp::Node
 public:
   NoisyOdometryNode() : Node("noisy_odometry_node")
   {
-    // Initialize the subscriber and publisher
     odom_subscriber_ = this->create_subscription<nav_msgs::msg::Odometry>(
         "/odom", 10, std::bind(&NoisyOdometryNode::odom_callback, this, std::placeholders::_1));
     noisy_odom_publisher_ = this->create_publisher<nav_msgs::msg::Odometry>("/noisy_odom", 10);
 
-    // Initialize the transform broadcaster
     tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(this);
 
-    // Random number generator setup
     std::random_device rd;
     rng_ = std::mt19937(rd());
-    noise_dist_ = std::normal_distribution<>(0.0, 0.08); // Mean 0, standard deviation 0.005
+    noise_dist_ = std::normal_distribution<>(0.0, 0.08); // Mean 0, standard deviation 0.08
   }
 
 private:
   void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
   {
-    // Create a new Odometry message and add noise
+    // Creating a new Odometry message and adding noise
     auto noisy_odom = *msg;
 
     noisy_odom.pose.pose.position.x += noise_dist_(rng_);
@@ -44,10 +41,10 @@ private:
     noisy_odom.twist.twist.angular.y += noise_dist_(rng_);
     noisy_odom.twist.twist.angular.z += noise_dist_(rng_);
 
-    // Publish the noisy odometry
+    // Publishing the noisy odometry
     noisy_odom_publisher_->publish(noisy_odom);
 
-    // Create and broadcast the transform
+    // Creating and broadcasting the transform
     geometry_msgs::msg::TransformStamped transform_stamped;
 
     transform_stamped.header.stamp = noisy_odom.header.stamp;
